@@ -11,6 +11,5 @@ A diferencia de las matrices, el grupo de objetos con el que trabaja puede aumen
 
 •Cuando se recupera un elemento de una colección genérica, no tiene que determinar su tipo de datos ni convertirlo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODcwNDU1NSwxODE3NDU5OTYxLC03NT
-I2NTI2ODRdfQ==
+eyJoaXN0b3J5IjpbLTczODcwNDU1NV19
 -->
