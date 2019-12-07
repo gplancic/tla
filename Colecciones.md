@@ -31,14 +31,14 @@ Instaciación de una colección:
 | Insert | Inserta un elemento en el índice especificado en una Lista <T>. |
 |  InsertRange| Inserta elementos de otra colección en el índice especificado. |
 | Remove | Elimina la primera ocurrencia del elemento especificado. |
-|  | Elimina el elemento en el índice especificado. |
-|  | Elimina todos los elementos que coinciden con la función de predicado proporcionada. |
-|  | Ordena todos los elementos. |
-|  | Establece la capacidad al número real de elementos. |
+| RemoveAt | Elimina el elemento en el índice especificado. |
+| RemoveRange | Elimina todos los elementos que coinciden con la función de predicado proporcionada. |
+| Sort | Ordena todos los elementos. |
+| TrimExcess | Establece la capacidad al número real de elementos. |
 |  | Determina si cada elemento de la Lista <T> coincide con las condiciones definidas por el predicado especificado. |
 ||||
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTk0NjUzNSwtNzM4NzA0NTU1XX0=
+eyJoaXN0b3J5IjpbLTEzNzYzODg4OCwtNzM4NzA0NTU1XX0=
 -->
