@@ -180,8 +180,14 @@ Instaciación de una colección:
     	}
     }
 
+
+> Fuentes
+[https://medium.com/@richmoore_35579/net-c-collections-programming-b35aa29653a7](https://medium.com/@richmoore_35579/net-c-collections-programming-b35aa29653a7)
+[https://www.tutorialsteacher.com/csharp/csharp-list](https://www.tutorialsteacher.com/csharp/csharp-list)
+[https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
+[https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDY2MDY2NCw4MjY2OTEzMjgsMTQ0MT
-g3NjUyLDU2ODU5NDc1OCwtNDg1NzY3NTMxLC03Mzg3MDQ1NTVd
-fQ==
+eyJoaXN0b3J5IjpbMTI1MTA1ODYxNCwtNTcwNjYwNjY0LDgyNj
+Y5MTMyOCwxNDQxODc2NTIsNTY4NTk0NzU4LC00ODU3Njc1MzEs
+LTczODcwNDU1NV19
 -->
