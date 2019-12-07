@@ -162,7 +162,9 @@ Instaciación de una colección:
     40  
     50
 
+**Ejemplo insertar elementos en la colección**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzk5OTM3OSwxNDQxODc2NTIsNTY4NT
-k0NzU4LC00ODU3Njc1MzEsLTczODcwNDU1NV19
+eyJoaXN0b3J5IjpbODI2NjkxMzI4LDE0NDE4NzY1Miw1Njg1OT
+Q3NTgsLTQ4NTc2NzUzMSwtNzM4NzA0NTU1XX0=
 -->
