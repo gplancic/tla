@@ -1,4 +1,4 @@
-# Colecciones
+# Colecciones en C#
 
 Para muchas aplicaciones, desea crear y administrar grupos de objetos relacionados. Hay dos formas de agrupar objetos: creando matrices de objetos y creando colecciones de objetos.
 
@@ -181,13 +181,20 @@ Instaciación de una colección:
     }
 
 
+Resumen
+
+Desafio
+
+
+
+
 > Fuentes
 [https://medium.com/@richmoore_35579/net-c-collections-programming-b35aa29653a7](https://medium.com/@richmoore_35579/net-c-collections-programming-b35aa29653a7)
 [https://www.tutorialsteacher.com/csharp/csharp-list](https://www.tutorialsteacher.com/csharp/csharp-list)
 [https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTA1ODYxNCwtNTcwNjYwNjY0LDgyNj
+eyJoaXN0b3J5IjpbMTQ3MzY0MDk1OSwtNTcwNjYwNjY0LDgyNj
 Y5MTMyOCwxNDQxODc2NTIsNTY4NTk0NzU4LC00ODU3Njc1MzEs
 LTczODcwNDU1NV19
 -->
