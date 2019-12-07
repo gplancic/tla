@@ -31,10 +31,14 @@ Instaciación de una colección:
 |  | Inserta un elemento en el índice especificado en una Lista <T>. |
 |  | Inserta elementos de otra colección en el índice especificado. |
 |  | Elimina la primera ocurrencia del elemento especificado. |
-|  | Inserta elementos de otra colección en el índice especificado. |
-
+|  | Elimina el elemento en el índice especificado. |
+|  | Elimina todos los elementos que coinciden con la función de predicado proporcionada. |
+|  | Ordena todos los elementos. |
+|  | Establece la capacidad al número real de elementos. |
+|  | Determina si cada elemento de la Lista <T> coincide con las condiciones definidas por el predicado especificado. |
+|||--|
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxMTQ3NzM5LC03Mzg3MDQ1NTVdfQ==
+eyJoaXN0b3J5IjpbLTE1NDM5MzIzNDIsLTczODcwNDU1NV19
 -->
