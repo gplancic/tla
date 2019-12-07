@@ -164,7 +164,24 @@ Instaciación de una colección:
 
 **Ejemplo insertar elementos en la colección**
 
+    using System;
+    using System.Collections.Generic;
+    					
+    public class Program
+    {
+    	public static void Main()
+    	{
+    		IList<int> intList = new List<int>(){ 10, 20, 30, 40 };
+    
+    		intList.Insert(1, 11);// inserts 11 at 1st index: after 10.
+    		
+    		foreach (var el in intList)
+    			Console.WriteLine(el);
+    	}
+    }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2NjkxMzI4LDE0NDE4NzY1Miw1Njg1OT
-Q3NTgsLTQ4NTc2NzUzMSwtNzM4NzA0NTU1XX0=
+eyJoaXN0b3J5IjpbLTU3MDY2MDY2NCw4MjY2OTEzMjgsMTQ0MT
+g3NjUyLDU2ODU5NDc1OCwtNDg1NzY3NTMxLC03Mzg3MDQ1NTVd
+fQ==
 -->
