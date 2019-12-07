@@ -19,7 +19,13 @@ A diferencia de las matrices, el grupo de objetos con el que trabaja puede aumen
     IList<int> intList = new List<int>();
     
     
+|Example| Other example |
+|--|--|
+| True |False  |
+|||
+|  |  |
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0NTY0NTE5LC03Mzg3MDQ1NTVdfQ==
+eyJoaXN0b3J5IjpbLTkyMzk0MTc1NiwtNzM4NzA0NTU1XX0=
 -->
