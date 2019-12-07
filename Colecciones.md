@@ -14,10 +14,8 @@ A diferencia de las matrices, el grupo de objetos con el que trabaja puede aumen
 
     List<int> intList = new List<int>();
     
-    //Or
-    
-    IList<int> intList = new List<int>();
-    
+   
+ La siguiente tabla enumera las propiedades y métodos importantes de la clase List <T>:
     
 |Example| Other example |
 |--|--|
@@ -27,5 +25,5 @@ A diferencia de las matrices, el grupo de objetos con el que trabaja puede aumen
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzk0MTc1NiwtNzM4NzA0NTU1XX0=
+eyJoaXN0b3J5IjpbLTUzODQ5NzY5LC03Mzg3MDQ1NTVdfQ==
 -->
