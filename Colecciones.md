@@ -25,10 +25,16 @@ Instaciación de una colección:
 ||Agrega elementos de la colección especificada al final de una Lista <T>.|
 |  | Busca el elemento y devuelve un índice del elemento. |
 |  | Elimina todos los elementos de una Lista <T>. |
-|  | Busca el elemento y devuelve un índice del elemento. |
-|  | Busca el elemento y devuelve un índice del elemento. |
+|  | Comprueba si el elemento especificado existe o no en una Lista <T>. |
+|  | Encuentra el primer elemento basado en la función de predicado especificada. |
+|  | Itera a través de una Lista <T>. |
+|  | Inserta un elemento en el índice especificado en una Lista <T>. |
+|  | Inserta elementos de otra colección en el índice especificado. |
+|  | Elimina la primera ocurrencia del elemento especificado. |
+|  | Inserta elementos de otra colección en el índice especificado. |
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTE1MjkxOTksLTczODcwNDU1NV19
+eyJoaXN0b3J5IjpbOTQxMTQ3NzM5LC03Mzg3MDQ1NTVdfQ==
 -->
