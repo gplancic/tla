@@ -42,7 +42,7 @@ Instaciación de una colección:
 | TrueForAll | Determina si cada elemento de la Lista <T> coincide con las condiciones definidas por el predicado especificado. |
 ||||
 
-**Ejemplo agregar elementos utilizando ADD**
+**Ejemplo agregar elementos utilizando a una colección utilizando *ADD***
 
     using System;
     using System.Collections.Generic;
@@ -87,13 +87,8 @@ Instaciación de una colección:
     3
 
 **Agregar objetos a una colección**
-
-
-
     
-    
-    
-    sing System;
+    using System;
     using System.Collections.Generic;
     public class Program
     {
@@ -129,6 +124,6 @@ Instaciación de una colección:
     4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTI1NTYxNywxNDQxODc2NTIsNTY4NT
+eyJoaXN0b3J5IjpbMTc5MTMzNjY2OSwxNDQxODc2NTIsNTY4NT
 k0NzU4LC00ODU3Njc1MzEsLTczODcwNDU1NV19
 -->
