@@ -21,11 +21,14 @@ Instaciación de una colección:
     
 |Example| Other example |
 |--|--|
-| True |False  |
-|||
-|  |  |
+| True |Agrega un elemento al final de una Lista <T>.  |
+||Agrega elementos de la colección especificada al final de una Lista <T>.|
+|  | Busca el elemento y devuelve un índice del elemento. |
+|  | Elimina todos los elementos de una Lista <T>. |
+|  | Busca el elemento y devuelve un índice del elemento. |
+|  | Busca el elemento y devuelve un índice del elemento. |
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjEyODQ4MCwtNzM4NzA0NTU1XX0=
+eyJoaXN0b3J5IjpbLTEyMTE1MjkxOTksLTczODcwNDU1NV19
 -->
