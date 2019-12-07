@@ -122,8 +122,29 @@ Instaciación de una colección:
 
     4  
     4
+**Ejemplo recorrer una colección**
+
+    using System;
+    using System.Collections.Generic;
+    
+    public class Program
+    {
+    	public static void Main()
+    	{		
+    		List<int> intList = new List<int>() { 10, 20, 30, 40, 50 };
+    
+    		intList.ForEach(el => Console.WriteLine(el));
+    
+    		foreach (var el in intList)
+            	Console.WriteLine(el);
+    		
+    		for(int i =0; i < intList.Count; i++)
+    			Console.WriteLine(intList[i]);
+    		
+    	}
+    } 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MTMzNjY2OSwxNDQxODc2NTIsNTY4NT
+eyJoaXN0b3J5IjpbMjA3NzU1ODAzNywxNDQxODc2NTIsNTY4NT
 k0NzU4LC00ODU3Njc1MzEsLTczODcwNDU1NV19
 -->
