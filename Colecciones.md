@@ -42,45 +42,49 @@ Instaciación de una colección:
 
 **Ejemplo agregar elementos utilizando ADD**
 
-    nnn
     using System;
-using System.Collections.Generic;
+    using System.Collections.Generic;
+    
+    public class Program
+    {
+    	public static void Main()
+    	{
+    		IList<int> intList = new List<int>();
+    		intList.Add(10);
+    		intList.Add(20);
+    		intList.Add(30);
+    		intList.Add(40);
+    		
+    		Console.WriteLine(intList.Count);
+    		
+    		IList<string> strList = new List<string>();
+    		strList.Add("one");
+    		strList.Add("two");
+    		strList.Add("three");
+    		strList.Add("four");
+    		strList.Add("four");
+    		strList.Add(null);
+    		strList.Add(null);
+    		
+    		Console.WriteLine(strList.Count);
+    		
+    		IList<Student> studentList = new List<Student>();
+    		studentList.Add(new Student());
+    		studentList.Add(new Student());
+    		studentList.Add(new Student());
+    		
+    		Console.WriteLine(studentList.Count);
+    		
+    	}
+    }
 
-public class Program
-{
-	public static void Main()
-	{
-		IList<int> intList = new List<int>();
-		intList.Add(10);
-		intList.Add(20);
-		intList.Add(30);
-		intList.Add(40);
-		
-		Console.WriteLine(intList.Count);
-		
-		IList<string> strList = new List<string>();
-		strList.Add("one");
-		strList.Add("two");
-		strList.Add("three");
-		strList.Add("four");
-		strList.Add("four");
-		strList.Add(null);
-		strList.Add(null);
-		
-		Console.WriteLine(strList.Count);
-		
-		IList<Student> studentList = new List<Student>();
-		studentList.Add(new Student());
-		studentList.Add(new Student());
-		studentList.Add(new Student());
-		
-		Console.WriteLine(studentList.Count);
-		
-	}
-}
+**Resultado:**
 
+    4  
+    7  
+    3
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MjkwNjEwNywtNDg1NzY3NTMxLC03Mz
-g3MDQ1NTVdfQ==
+eyJoaXN0b3J5IjpbNTY4NTk0NzU4LC00ODU3Njc1MzEsLTczOD
+cwNDU1NV19
 -->
