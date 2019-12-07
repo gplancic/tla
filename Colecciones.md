@@ -10,9 +10,11 @@ A diferencia de las matrices, el grupo de objetos con el que trabaja puede aumen
 
 ![List](https://github.com/dev-Niko/tla/blob/master/list.png)
 
-•Una colección es una clase, de modo que antes de poder agregar    elementos a una nueva colección, debe declararla. 
-•Una colección    genérica cumple la seguridad de tipos para que ningún otro tipo de    datos se pueda agregar a ella. 
-•Cuando se recupera un elemento de una    colección genérica, no tiene que determinar su tipo de datos ni    convertirlo.
+•Una colección es una clase, de modo que antes de poder agregar elementos a una nueva colección, debe declararla. 
+
+•Una colección    genérica cumple la seguridad de tipos para que ningún otro tipo de datos se pueda agregar a ella. 
+
+•Cuando se recupera un elemento de una    colección genérica, no tiene que determinar su tipo de datos ni convertirlo.
 
 Instaciación de una colección:
 
@@ -85,6 +87,6 @@ Instaciación de una colección:
     3
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4NTk0NzU4LC00ODU3Njc1MzEsLTczOD
-cwNDU1NV19
+eyJoaXN0b3J5IjpbMTQ0MTg3NjUyLDU2ODU5NDc1OCwtNDg1Nz
+Y3NTMxLC03Mzg3MDQ1NTVdfQ==
 -->
