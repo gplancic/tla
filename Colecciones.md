@@ -21,10 +21,10 @@ Instaciación de una colección:
     
 |Método| Uso |
 |--|--|
-| True |Agrega un elemento al final de una Lista <T>.  |
-||Agrega elementos de la colección especificada al final de una Lista <T>.|
-|  | Busca el elemento y devuelve un índice del elemento. |
-|  | Elimina todos los elementos de una Lista <T>. |
+| Add |Agrega un elemento al final de una Lista <T>.  |
+|AddRange|Agrega elementos de la colección especificada al final de una Lista <T>.|
+| BinarySearch | Busca el elemento y devuelve un índice del elemento. |
+| Clear | Elimina todos los elementos de una Lista <T>. |
 |  | Comprueba si el elemento especificado existe o no en una Lista <T>. |
 |  | Encuentra el primer elemento basado en la función de predicado especificada. |
 |  | Itera a través de una Lista <T>. |
@@ -40,5 +40,5 @@ Instaciación de una colección:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTUzNDQ1NTUsLTczODcwNDU1NV19
+eyJoaXN0b3J5IjpbNzcyNTAxNTg4LC03Mzg3MDQ1NTVdfQ==
 -->
