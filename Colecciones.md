@@ -86,7 +86,43 @@ Instaciación de una colección:
     7  
     3
 
+Agregar objetos a una coleccion
+using System;
+using System.Collections.Generic;
+
+    public class Program
+    {
+    	public static void Main()
+    	{
+    		IList<int> intList = new List<int>(){ 10, 20, 30, 40 };
+    
+    
+    		Console.WriteLine(intList.Count);
+    
+    		IList<Student> studentList = new List<Student>() { 
+                    new Student(){ StudentID=1, StudentName="Bill"},
+                    new Student(){ StudentID=2, StudentName="Steve"},
+                    new Student(){ StudentID=3, StudentName="Ram"},
+                    new Student(){ StudentID=1, StudentName="Moin"}
+                };
+    		
+    		Console.WriteLine(studentList.Count);
+    		
+    	}
+    }
+    
+    public class Student
+    { 
+    	public int StudentID { get; set; }
+    	public string StudentName { get; set; }
+    	
+    }
+Resultado:
+
+    4  
+    4
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTg3NjUyLDU2ODU5NDc1OCwtNDg1Nz
-Y3NTMxLC03Mzg3MDQ1NTVdfQ==
+eyJoaXN0b3J5IjpbLTE3MTg1MzEzMTIsMTQ0MTg3NjUyLDU2OD
+U5NDc1OCwtNDg1NzY3NTMxLC03Mzg3MDQ1NTVdfQ==
 -->
