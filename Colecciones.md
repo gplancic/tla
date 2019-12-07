@@ -10,7 +10,15 @@ A diferencia de las matrices, el grupo de objetos con el que trabaja puede aumen
 •Una colección genérica cumple la seguridad de tipos para que ningún otro tipo de datos se pueda agregar a ella.
 •Cuando se recupera un elemento de una colección genérica, no tiene que determinar su tipo de datos ni convertirlo.
 
+   
+List<int> intList = new List<int>();
+
+//Or
+
+IList<int> intList = new List<int>();
+```
+    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDEwMDk0MDksLTczODcwNDU1NV19
+eyJoaXN0b3J5IjpbMTk2Mjc2MjgzMSwtNzM4NzA0NTU1XX0=
 -->
