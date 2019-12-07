@@ -87,9 +87,12 @@ Instaciación de una colección:
     3
 
 Agregar objetos a una coleccion
-using System;
-using System.Collections.Generic;
 
+
+
+    
+    
+    
     public class Program
     {
     	public static void Main()
@@ -117,12 +120,13 @@ using System.Collections.Generic;
     	public string StudentName { get; set; }
     	
     }
-Resultado:
+    
+**Resultado:**
 
     4  
     4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTg1MzEzMTIsMTQ0MTg3NjUyLDU2OD
-U5NDc1OCwtNDg1NzY3NTMxLC03Mzg3MDQ1NTVdfQ==
+eyJoaXN0b3J5IjpbLTIxNDIyNTc3MiwxNDQxODc2NTIsNTY4NT
+k0NzU4LC00ODU3Njc1MzEsLTczODcwNDU1NV19
 -->
