@@ -26,11 +26,11 @@ Instaciación de una colección:
 | BinarySearch | Busca el elemento y devuelve un índice del elemento. |
 | Clear | Elimina todos los elementos de una Lista <T>. |
 | Contains | Comprueba si el elemento especificado existe o no en una Lista <T>. |
-|  | Encuentra el primer elemento basado en la función de predicado especificada. |
-|  | Itera a través de una Lista <T>. |
-|  | Inserta un elemento en el índice especificado en una Lista <T>. |
-|  | Inserta elementos de otra colección en el índice especificado. |
-|  | Elimina la primera ocurrencia del elemento especificado. |
+| Find | Encuentra el primer elemento basado en la función de predicado especificada. |
+|Foreach| Itera a través de una Lista <T>. |
+| Insert | Inserta un elemento en el índice especificado en una Lista <T>. |
+|  InsertRange| Inserta elementos de otra colección en el índice especificado. |
+| Remove | Elimina la primera ocurrencia del elemento especificado. |
 |  | Elimina el elemento en el índice especificado. |
 |  | Elimina todos los elementos que coinciden con la función de predicado proporcionada. |
 |  | Ordena todos los elementos. |
@@ -40,5 +40,5 @@ Instaciación de una colección:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2NDc4OTMxLC03Mzg3MDQ1NTVdfQ==
+eyJoaXN0b3J5IjpbLTczNTk0NjUzNSwtNzM4NzA0NTU1XX0=
 -->
