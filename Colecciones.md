@@ -1,9 +1,11 @@
 # Colecciones
 
-Existen dos formas de agrupar objetos: mediante la creación de matrices de objetos y mediante la creación de colecciones de objetos.
+Para muchas aplicaciones, desea crear y administrar grupos de objetos relacionados. Hay dos formas de agrupar objetos: creando matrices de objetos y creando colecciones de objetos.
 
 Las matrices son muy útiles para crear y trabajar con un número fijo de objetos fuertemente tipados.
+
 Las colecciones proporcionan un método más flexible para trabajar con grupos de objetos.
+
 A diferencia de las matrices, el grupo de objetos con el que trabaja puede aumentar y reducirse dinámicamente a medida que cambian las necesidades de la aplicación.
 
 ![List](https://github.com/dev-Niko/tla/blob/master/list.png)
@@ -17,7 +19,7 @@ Instaciación de una colección:
     List<int> intList = new List<int>();
     
    
- La siguiente tabla enumera las propiedades y métodos importantes de la clase List <T>:
+ La siguiente tabla enumera las propiedades y métodos importantes de la clase List< T > :
     
 |Método| Uso |
 |--|--|
@@ -35,10 +37,10 @@ Instaciación de una colección:
 | RemoveRange | Elimina todos los elementos que coinciden con la función de predicado proporcionada. |
 | Sort | Ordena todos los elementos. |
 | TrimExcess | Establece la capacidad al número real de elementos. |
-|  | Determina si cada elemento de la Lista <T> coincide con las condiciones definidas por el predicado especificado. |
+| TrueForAll | Determina si cada elemento de la Lista <T> coincide con las condiciones definidas por el predicado especificado. |
 ||||
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzYzODg4OCwtNzM4NzA0NTU1XX0=
+eyJoaXN0b3J5IjpbLTQ4NTc2NzUzMSwtNzM4NzA0NTU1XX0=
 -->
