@@ -144,7 +144,25 @@ Instaciación de una colección:
     	}
     } 
 
+**Resultado:**
+
+    10  
+    20  
+    30  
+    40  
+    50  
+    10  
+    20  
+    30  
+    40  
+    50  
+    10  
+    20  
+    30  
+    40  
+    50
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzU1ODAzNywxNDQxODc2NTIsNTY4NT
+eyJoaXN0b3J5IjpbMTEzNzk5OTM3OSwxNDQxODc2NTIsNTY4NT
 k0NzU4LC00ODU3Njc1MzEsLTczODcwNDU1NV19
 -->
