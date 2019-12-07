@@ -19,7 +19,7 @@ Instaciación de una colección:
    
  La siguiente tabla enumera las propiedades y métodos importantes de la clase List <T>:
     
-|Example| Other example |
+|Método| Uso |
 |--|--|
 | True |Agrega un elemento al final de una Lista <T>.  |
 ||Agrega elementos de la colección especificada al final de una Lista <T>.|
@@ -36,9 +36,9 @@ Instaciación de una colección:
 |  | Ordena todos los elementos. |
 |  | Establece la capacidad al número real de elementos. |
 |  | Determina si cada elemento de la Lista <T> coincide con las condiciones definidas por el predicado especificado. |
-|||--|
+||||
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDM5MzIzNDIsLTczODcwNDU1NV19
+eyJoaXN0b3J5IjpbLTEwNTUzNDQ1NTUsLTczODcwNDU1NV19
 -->
