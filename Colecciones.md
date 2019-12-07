@@ -40,7 +40,47 @@ Instaciación de una colección:
 | TrueForAll | Determina si cada elemento de la Lista <T> coincide con las condiciones definidas por el predicado especificado. |
 ||||
 
+**Ejemplo agregar elementos utilizando ADD**
+
+    nnn
+    using System;
+using System.Collections.Generic;
+
+public class Program
+{
+	public static void Main()
+	{
+		IList<int> intList = new List<int>();
+		intList.Add(10);
+		intList.Add(20);
+		intList.Add(30);
+		intList.Add(40);
+		
+		Console.WriteLine(intList.Count);
+		
+		IList<string> strList = new List<string>();
+		strList.Add("one");
+		strList.Add("two");
+		strList.Add("three");
+		strList.Add("four");
+		strList.Add("four");
+		strList.Add(null);
+		strList.Add(null);
+		
+		Console.WriteLine(strList.Count);
+		
+		IList<Student> studentList = new List<Student>();
+		studentList.Add(new Student());
+		studentList.Add(new Student());
+		studentList.Add(new Student());
+		
+		Console.WriteLine(studentList.Count);
+		
+	}
+}
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTc2NzUzMSwtNzM4NzA0NTU1XX0=
+eyJoaXN0b3J5IjpbMjE0MjkwNjEwNywtNDg1NzY3NTMxLC03Mz
+g3MDQ1NTVdfQ==
 -->
