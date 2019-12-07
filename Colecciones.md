@@ -25,7 +25,7 @@ Instaciación de una colección:
 |AddRange|Agrega elementos de la colección especificada al final de una Lista <T>.|
 | BinarySearch | Busca el elemento y devuelve un índice del elemento. |
 | Clear | Elimina todos los elementos de una Lista <T>. |
-|  | Comprueba si el elemento especificado existe o no en una Lista <T>. |
+| Contains | Comprueba si el elemento especificado existe o no en una Lista <T>. |
 |  | Encuentra el primer elemento basado en la función de predicado especificada. |
 |  | Itera a través de una Lista <T>. |
 |  | Inserta un elemento en el índice especificado en una Lista <T>. |
@@ -40,5 +40,5 @@ Instaciación de una colección:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyNTAxNTg4LC03Mzg3MDQ1NTVdfQ==
+eyJoaXN0b3J5IjpbOTU2NDc4OTMxLC03Mzg3MDQ1NTVdfQ==
 -->
