@@ -15,7 +15,27 @@ A diferencia de las matrices, el grupo de objetos con el que trabaja puede aumen
 •Una colección    genérica cumple la seguridad de tipos para que ningún otro tipo de datos se pueda agregar a ella. 
 
 •Cuando se recupera un elemento de una    colección genérica, no tiene que determinar su tipo de datos ni convertirlo.
+# Presentación de colecciones genéricas
 
+Veamos una categoría de colección llamada Colecciones genéricas. Sabemos qué es una colección en términos generales; Es un objeto que contiene un grupo de otros objetos y puede ser trabajado o procesado de alguna manera. Intentemos definir qué queremos decir con genérico.
+
+# Cómo trabajan ellos
+
+Los genéricos se introdujeron en el marco .NET en la versión 2.0 y ofrecen una forma de proporcionar un 'parámetro de tipo' al crear instancias de un objeto.
+
+Lo que esto significa es que podemos diseñar una clase que recibirá parámetros, los tipos de estos parámetros se definen cuando se crea una instancia de un objeto de clase genérico.
+
+Entonces, en el caso de una colección genérica, podemos crear una instancia de una lista que solo contiene cadenas. No se pueden agregar elementos de lista que no sean cadenas. Entonces podríamos definir otra Lista que solo acepte entradas, y así sucesivamente. De esta manera, podemos diseñar clases que se puedan reutilizar en muchos contextos diferentes, y aumentar la seguridad de los tipos también.
+
+Es fácil ver por qué los tipos de colección son candidatos ideales para el comportamiento genérico. Una colección es un contenedor, como una bolsa, por ejemplo. Probablemente no querríamos ir a la tienda y comprar varias bolsas, solo porque podríamos ponerles diferentes cosas en diferentes momentos. Probablemente solo compraríamos una bolsa y aceptaremos que podemos usarla para transportar diferentes tipos de objetos cuando sea necesario.
+
+Entonces, por ejemplo, podríamos crear una clase de colección genérica que nos permita mantener cadenas en un punto de nuestro código, y mantener entradas en otro punto, en lugar de crear dos clases, una para contener solo cadenas y otra para contener entradas.
+
+# Tipos de colecciones genéricas
+
+Echemos un vistazo rápido a los diversos tipos de colecciones genéricas. Tenga en cuenta que todos estos tipos se encuentran dentro del espacio de nombres System.Collections.Generic e implementan la interfaz ICollection.
+
+El punto relevante aquí es que al implementar ICollection, se proporcionan algunos métodos y propiedades estándar como Agregar, Contiene y Eliminar que hacen que el manejo de colecciones sea muy intuitivo.
 Instaciación de una colección:
 
     List<int> intList = new List<int>();
@@ -194,7 +214,7 @@ Desafio
 [https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzY0MDk1OSwtNTcwNjYwNjY0LDgyNj
-Y5MTMyOCwxNDQxODc2NTIsNTY4NTk0NzU4LC00ODU3Njc1MzEs
-LTczODcwNDU1NV19
+eyJoaXN0b3J5IjpbMTQyNDY5MTQ2LDE0NzM2NDA5NTksLTU3MD
+Y2MDY2NCw4MjY2OTEzMjgsMTQ0MTg3NjUyLDU2ODU5NDc1OCwt
+NDg1NzY3NTMxLC03Mzg3MDQ1NTVdfQ==
 -->
