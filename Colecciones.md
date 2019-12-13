@@ -4,13 +4,14 @@ Muchas aplicaciones requieren agrupar objetos
  - Agendas  
  - Catálogos de librerías o de productos
  - Sistema de alumnos de la Universidad 
-El número de elementos a agrupar varía 
-Adición de elementos 
-Eliminación de elementos
 
+El número de elementos a agrupar varía 
+ - Adición de elementos  
+ - Eliminación de elementos
+ 
 Y hay que ser capaces de manipular los elementos de la colección
-Búsqueda de elementos 
-Consulta y modificación de elementos
+ - Búsqueda de elementos  
+ - Consulta y modificación de elementos
 
 Hay dos formas de agrupar objetos: 
  - **Matrices**
@@ -226,8 +227,8 @@ Desafio
 [https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODUzNjY1NzQsNjU0MzAyMTQ4LDE0Mj
-Q2OTE0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4
-LDE0NDE4NzY1Miw1Njg1OTQ3NTgsLTQ4NTc2NzUzMSwtNzM4Nz
-A0NTU1XX0=
+eyJoaXN0b3J5IjpbMTUzMjcxOTE4MCw2NTQzMDIxNDgsMTQyND
+Y5MTQ2LDE0NzM2NDA5NTksLTU3MDY2MDY2NCw4MjY2OTEzMjgs
+MTQ0MTg3NjUyLDU2ODU5NDc1OCwtNDg1NzY3NTMxLC03Mzg3MD
+Q1NTVdfQ==
 -->
