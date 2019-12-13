@@ -1,6 +1,9 @@
 # Colecciones en C#
 
-Para muchas aplicaciones, desea crear y administrar grupos de objetos relacionados. Hay dos formas de agrupar objetos: creando matrices de objetos y creando colecciones de objetos.
+Muchas veces es necesario crear y administrar grupos de objetos relacionados. 
+Hay dos formas de agrupar objetos: 
+Matrices  
+Colecciones 
 
 Las matrices son muy útiles para crear y trabajar con un número fijo de objetos fuertemente tipados.
 
@@ -214,7 +217,7 @@ Desafio
 [https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDY5MTQ2LDE0NzM2NDA5NTksLTU3MD
-Y2MDY2NCw4MjY2OTEzMjgsMTQ0MTg3NjUyLDU2ODU5NDc1OCwt
-NDg1NzY3NTMxLC03Mzg3MDQ1NTVdfQ==
+eyJoaXN0b3J5IjpbNjk5OTI3MTA5LDE0MjQ2OTE0NiwxNDczNj
+QwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4LDE0NDE4NzY1Miw1
+Njg1OTQ3NTgsLTQ4NTc2NzUzMSwtNzM4NzA0NTU1XX0=
 -->
