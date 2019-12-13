@@ -1,11 +1,10 @@
 # Colecciones en C#
 
-Muchas veces es necesario crear y administrar grupos de objetos relacionados. 
-Por ejemplo una aplicacion que haga de agenda de notas
-Las notas se pueden almacenar „ Se pueden consultar notas individuales „ No hay límite en el número de notas „ Se puede saber cuántas notas se tienen guardadas
-
-
-La necesidad de agrupar objetos „ Muchas aplicaciones requieren agrupar objetos „ Agendas „ Catálogos de librerías o de productos „ Sistema de matrícula de la Universidad „ … „ El número de elementos a agrupar varía „ Adición de elementos „ Eliminación de elementos „ Y hay que ser capaces de manipular los elementos de la colección „ Búsqueda de elementos „ Consulta y modificación de elementos
+Muchas aplicaciones requieren agrupar objetos 
+Agendas 
+Catálogos de librerías o de productos
+Sistema de alumnos de la Universidad 
+El número de elementos a agrupar varía „ Adición de elementos „ Eliminación de elementos „ Y hay que ser capaces de manipular los elementos de la colección „ Búsqueda de elementos „ Consulta y modificación de elementos
 
 Hay dos formas de agrupar objetos: 
  - **Matrices**
@@ -221,8 +220,8 @@ Desafio
 [https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU0NTMzMzk3LDY1NDMwMjE0OCwxNDI0Nj
-kxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNjY0LDgyNjY5MTMyOCwx
-NDQxODc2NTIsNTY4NTk0NzU4LC00ODU3Njc1MzEsLTczODcwND
-U1NV19
+eyJoaXN0b3J5IjpbLTIwOTI3ODUzMTksNjU0MzAyMTQ4LDE0Mj
+Q2OTE0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4
+LDE0NDE4NzY1Miw1Njg1OTQ3NTgsLTQ4NTc2NzUzMSwtNzM4Nz
+A0NTU1XX0=
 -->
