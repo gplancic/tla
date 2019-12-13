@@ -2,16 +2,15 @@
 
 Muchas veces es necesario crear y administrar grupos de objetos relacionados. 
 Hay dos formas de agrupar objetos: 
-Matrices  
-Colecciones 
+ - **Matrices**
+ - **Colecciones** 
 
 Las matrices son muy útiles para crear y trabajar con un número fijo de objetos fuertemente tipados.
 
 Las colecciones proporcionan un método más flexible para trabajar con grupos de objetos.
 
-A diferencia de las matrices, el grupo de objetos con el que trabaja puede aumentar y reducirse dinámicamente a medida que cambian las necesidades de la aplicación.
+A diferencia de las matrices, el grupo de objetos con el que trabajan las colecciones pueden aumentar y reducirse dinámicamente a medida que cambian las necesidades de la aplicación.
 
-![List](https://github.com/dev-Niko/tla/blob/master/list.png)
 
 •Una colección es una clase, de modo que antes de poder agregar elementos a una nueva colección, debe declararla. 
 
@@ -217,7 +216,7 @@ Desafio
 [https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5OTI3MTA5LDE0MjQ2OTE0NiwxNDczNj
-QwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4LDE0NDE4NzY1Miw1
-Njg1OTQ3NTgsLTQ4NTc2NzUzMSwtNzM4NzA0NTU1XX0=
+eyJoaXN0b3J5IjpbLTExMDk5MzM4MDgsMTQyNDY5MTQ2LDE0Nz
+M2NDA5NTksLTU3MDY2MDY2NCw4MjY2OTEzMjgsMTQ0MTg3NjUy
+LDU2ODU5NDc1OCwtNDg1NzY3NTMxLC03Mzg3MDQ1NTVdfQ==
 -->
