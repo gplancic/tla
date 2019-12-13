@@ -1,10 +1,16 @@
 # Colecciones en C#
 
 Muchas aplicaciones requieren agrupar objetos 
-Agendas 
-Catálogos de librerías o de productos
-Sistema de alumnos de la Universidad 
-El número de elementos a agrupar varía „ Adición de elementos „ Eliminación de elementos „ Y hay que ser capaces de manipular los elementos de la colección „ Búsqueda de elementos „ Consulta y modificación de elementos
+ - Agendas  
+ - Catálogos de librerías o de productos
+ - Sistema de alumnos de la Universidad 
+El número de elementos a agrupar varía 
+Adición de elementos 
+Eliminación de elementos
+
+Y hay que ser capaces de manipular los elementos de la colección
+Búsqueda de elementos 
+Consulta y modificación de elementos
 
 Hay dos formas de agrupar objetos: 
  - **Matrices**
@@ -220,7 +226,7 @@ Desafio
 [https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTI3ODUzMTksNjU0MzAyMTQ4LDE0Mj
+eyJoaXN0b3J5IjpbLTEwODUzNjY1NzQsNjU0MzAyMTQ4LDE0Mj
 Q2OTE0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4
 LDE0NDE4NzY1Miw1Njg1OTQ3NTgsLTQ4NTc2NzUzMSwtNzM4Nz
 A0NTU1XX0=
