@@ -21,13 +21,18 @@ Las matrices son muy útiles para crear y trabajar con un número fijo de objeto
 
 Las colecciones proporcionan un método más flexible para trabajar con grupos de objetos.
 
-A diferencia de las matrices, el grupo de objetos con el que trabajan las colecciones pueden aumentar y reducirse dinámicamente a medida que cambian las necesidades de la aplicación.
+# Tipos de colecciones
 
-•Una colección es una clase, de modo que antes de poder agregar elementos a una nueva colección, debe declararla. 
+.NET Framework proporciona muchas colecciones comunes.  Cada tipo de colección está diseñado para un fin específico.
 
-•Una colección genérica cumple la seguridad de tipos para que ningún otro tipo de datos se pueda agregar a ella. 
+En esta sección se describen algunas de las clases de colecciones comunes:
 
-•Cuando se recupera un elemento de una    colección genérica, no tiene que determinar su tipo de datos ni convertirlo.
+-   Clases  [System.Collections.Generic](https://docs.microsoft.com/es-es/dotnet/api/system.collections.generic)
+    
+-   Clases  [System.Collections.Concurrent](https://docs.microsoft.com/es-es/dotnet/api/system.collections.concurrent)
+    
+-   Clases  [System.Collections](https://docs.microsoft.com/es-es/dotnet/api/system.collections)
+
 # Presentación de colecciones genéricas
 
 Veamos una categoría de colección llamada Colecciones genéricas. Sabemos qué es una colección en términos generales; Es un objeto que contiene un grupo de otros objetos y puede ser trabajado o procesado de alguna manera. Intentemos definir qué queremos decir con genérico.
@@ -227,8 +232,8 @@ Desafio
 [https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjcxOTE4MCw2NTQzMDIxNDgsMTQyND
-Y5MTQ2LDE0NzM2NDA5NTksLTU3MDY2MDY2NCw4MjY2OTEzMjgs
-MTQ0MTg3NjUyLDU2ODU5NDc1OCwtNDg1NzY3NTMxLC03Mzg3MD
-Q1NTVdfQ==
+eyJoaXN0b3J5IjpbODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0Mz
+AyMTQ4LDE0MjQ2OTE0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQs
+ODI2NjkxMzI4LDE0NDE4NzY1Miw1Njg1OTQ3NTgsLTQ4NTc2Nz
+UzMSwtNzM4NzA0NTU1XX0=
 -->
