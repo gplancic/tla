@@ -11,10 +11,9 @@ Las colecciones proporcionan un método más flexible para trabajar con grupos d
 
 A diferencia de las matrices, el grupo de objetos con el que trabajan las colecciones pueden aumentar y reducirse dinámicamente a medida que cambian las necesidades de la aplicación.
 
-
 •Una colección es una clase, de modo que antes de poder agregar elementos a una nueva colección, debe declararla. 
 
-•Una colección    genérica cumple la seguridad de tipos para que ningún otro tipo de datos se pueda agregar a ella. 
+•Una colección genérica cumple la seguridad de tipos para que ningún otro tipo de datos se pueda agregar a ella. 
 
 •Cuando se recupera un elemento de una    colección genérica, no tiene que determinar su tipo de datos ni convertirlo.
 # Presentación de colecciones genéricas
@@ -216,7 +215,7 @@ Desafio
 [https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDk5MzM4MDgsMTQyNDY5MTQ2LDE0Nz
-M2NDA5NTksLTU3MDY2MDY2NCw4MjY2OTEzMjgsMTQ0MTg3NjUy
-LDU2ODU5NDc1OCwtNDg1NzY3NTMxLC03Mzg3MDQ1NTVdfQ==
+eyJoaXN0b3J5IjpbNjU0MzAyMTQ4LDE0MjQ2OTE0NiwxNDczNj
+QwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4LDE0NDE4NzY1Miw1
+Njg1OTQ3NTgsLTQ4NTc2NzUzMSwtNzM4NzA0NTU1XX0=
 -->
