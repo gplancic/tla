@@ -231,9 +231,10 @@ Desafio
 [https://www.tutorialsteacher.com/csharp/csharp-list](https://www.tutorialsteacher.com/csharp/csharp-list)
 [https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
+[https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjMwMDE4MCw4Mjc4Njc3NDMsMTUzMj
-cxOTE4MCw2NTQzMDIxNDgsMTQyNDY5MTQ2LDE0NzM2NDA5NTks
-LTU3MDY2MDY2NCw4MjY2OTEzMjgsMTQ0MTg3NjUyLDU2ODU5ND
-c1OCwtNDg1NzY3NTMxLC03Mzg3MDQ1NTVdfQ==
+eyJoaXN0b3J5IjpbNTU0OTg0MjU3LDgyNzg2Nzc0MywxNTMyNz
+E5MTgwLDY1NDMwMjE0OCwxNDI0NjkxNDYsMTQ3MzY0MDk1OSwt
+NTcwNjYwNjY0LDgyNjY5MTMyOCwxNDQxODc2NTIsNTY4NTk0Nz
+U4LC00ODU3Njc1MzEsLTczODcwNDU1NV19
 -->
