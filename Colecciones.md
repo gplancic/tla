@@ -33,13 +33,9 @@ En esta sección se describen algunas de las clases de colecciones comunes:
     
 -   Clases  System.Collections
 
-# Presentación de colecciones genéricas
+# Colecciones genéricas
 
 Veamos una categoría de colección llamada Colecciones genéricas. Sabemos qué es una colección en términos generales; Es un objeto que contiene un grupo de otros objetos y puede ser trabajado o procesado de alguna manera. Intentemos definir qué queremos decir con genérico.
-
-# Cómo trabajan ellos
-
-Los genéricos se introdujeron en el marco .NET en la versión 2.0 y ofrecen una forma de proporcionar un 'parámetro de tipo' al crear instancias de un objeto.
 
 Lo que esto significa es que podemos diseñar una clase que recibirá parámetros, los tipos de estos parámetros se definen cuando se crea una instancia de un objeto de clase genérico.
 
@@ -233,8 +229,9 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0OTg0MjU3LDgyNzg2Nzc0MywxNTMyNz
-E5MTgwLDY1NDMwMjE0OCwxNDI0NjkxNDYsMTQ3MzY0MDk1OSwt
-NTcwNjYwNjY0LDgyNjY5MTMyOCwxNDQxODc2NTIsNTY4NTk0Nz
-U4LC00ODU3Njc1MzEsLTczODcwNDU1NV19
+eyJoaXN0b3J5IjpbOTM5ODA4MjQ1LDU1NDk4NDI1Nyw4Mjc4Nj
+c3NDMsMTUzMjcxOTE4MCw2NTQzMDIxNDgsMTQyNDY5MTQ2LDE0
+NzM2NDA5NTksLTU3MDY2MDY2NCw4MjY2OTEzMjgsMTQ0MTg3Nj
+UyLDU2ODU5NDc1OCwtNDg1NzY3NTMxLC03Mzg3MDQ1NTVdfQ==
+
 -->
