@@ -47,7 +47,7 @@ Entonces, por ejemplo, podríamos crear una clase de colección genérica que no
 
 # Tipos de colecciones genéricas
 
-Echemos un vistazo rápido a los diversos tipos de colecciones genéricas. Tenga en cuenta que todos estos tipos se encuentran dentro del espacio de nombres System.Collections.Generic e implementan la interfaz ICollection.
+Tenga en cuenta que todos estos tipos se encuentran dentro del espacio de nombres System.Collections.Generic e implementan la interfaz ICollection.
 
 El punto relevante aquí es que al implementar ICollection, se proporcionan algunos métodos y propiedades estándar como Agregar, Contiene y Eliminar que hacen que el manejo de colecciones sea muy intuitivo.
 Instaciación de una colección:
@@ -229,7 +229,7 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5ODA4MjQ1LDU1NDk4NDI1Nyw4Mjc4Nj
+eyJoaXN0b3J5IjpbLTQxNzk5MzU3LDU1NDk4NDI1Nyw4Mjc4Nj
 c3NDMsMTUzMjcxOTE4MCw2NTQzMDIxNDgsMTQyNDY5MTQ2LDE0
 NzM2NDA5NTksLTU3MDY2MDY2NCw4MjY2OTEzMjgsMTQ0MTg3Nj
 UyLDU2ODU5NDc1OCwtNDg1NzY3NTMxLC03Mzg3MDQ1NTVdfQ==
