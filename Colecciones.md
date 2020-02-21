@@ -3,13 +3,13 @@
 Muchas aplicaciones requieren agrupar objetos por ejemplo una agenda, un   
  catálogo de productos o el mismo sistema de alumnos de la Universidad. 
 
-El número de objetos a agrupar varía por lo que en general tendremos 2 operaciones comunes a realizar son la **adición y eliminación de elementos**. 
+El número de objetos a agrupar varía por lo que en general tendremos 2 operaciones comunes a realizar  la **adición y eliminación de objetos**. 
  
 También sera necesario poder ser capaces de manipular los objetos de este grupo
  - **Búsqueda de objetos**  
  - **Consulta y modificación de objetos**
 
-Hay dos formas de agrupar objetos: 
+Hay dos formas de agruparlos: 
  - **Matrices**
  - **Colecciones** 
 
@@ -225,9 +225,9 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5NDM2ODIsLTQxNzk5MzU3LDU1NDk4ND
-I1Nyw4Mjc4Njc3NDMsMTUzMjcxOTE4MCw2NTQzMDIxNDgsMTQy
-NDY5MTQ2LDE0NzM2NDA5NTksLTU3MDY2MDY2NCw4MjY2OTEzMj
-gsMTQ0MTg3NjUyLDU2ODU5NDc1OCwtNDg1NzY3NTMxLC03Mzg3
-MDQ1NTVdfQ==
+eyJoaXN0b3J5IjpbMTA4MjQ0MjQ0NCw3NDk0MzY4MiwtNDE3OT
+kzNTcsNTU0OTg0MjU3LDgyNzg2Nzc0MywxNTMyNzE5MTgwLDY1
+NDMwMjE0OCwxNDI0NjkxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNj
+Y0LDgyNjY5MTMyOCwxNDQxODc2NTIsNTY4NTk0NzU4LC00ODU3
+Njc1MzEsLTczODcwNDU1NV19
 -->
