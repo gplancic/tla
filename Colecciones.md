@@ -1,10 +1,9 @@
 # Colecciones en C#
 
-Muchas aplicaciones requieren agrupar objetos por ejemplo una agenda un   
+Muchas aplicaciones requieren agrupar objetos por ejemplo una agenda, un   
  catálogo de productos o el mismo sistema de alumnos de la Universidad. 
 
-El número de elementos a agrupar varía por lo que 2 operaciones comunes a realizar son la adición y eliminacide elementos  
- - Eliminación de elementos
+El número de elementos a agrupar varía por lo que 2 operaciones comunes a realizar son la **adición y eliminación de elementos**.
  
 Y hay que ser capaces de manipular los elementos de la colección
  - Búsqueda de elementos  
@@ -226,7 +225,7 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQyMTY3OTYsLTQxNzk5MzU3LDU1ND
+eyJoaXN0b3J5IjpbLTEzNTAyMzY2MTMsLTQxNzk5MzU3LDU1ND
 k4NDI1Nyw4Mjc4Njc3NDMsMTUzMjcxOTE4MCw2NTQzMDIxNDgs
 MTQyNDY5MTQ2LDE0NzM2NDA5NTksLTU3MDY2MDY2NCw4MjY2OT
 EzMjgsMTQ0MTg3NjUyLDU2ODU5NDc1OCwtNDg1NzY3NTMxLC03
