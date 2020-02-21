@@ -37,7 +37,7 @@ Lo que esto significa es que podemos diseñar una clase que recibirá parámetro
 
 Entonces, en el caso de una colección genérica, podemos crear una instancia de una Lista (*list*) que solo contiene cadenas de textos (*strings*). No se pueden agregar elementos de lista que no sean cadenas de textos. Entonces podríamos definir otra Lista que solo acepte números enteros (*integer*), y así sucesivamente. De esta manera, podemos diseñar clases que se puedan reutilizar en muchos contextos diferentes, y aumentar la seguridad de los tipos también.
 
-Es fácil ver por qué los tipos de colección son candidatos ideales para el comportamiento genérico. Una colección es un contenedor, como una bolsa, por ejemplo. 
+Es fácil ver por qué los tipos de colección son candidatos ideales para el comportamiento genérico. Una colección es un contenedor, como una bolsa.
 
 Entonces, por ejemplo, podríamos crear una clase de colección genérica que nos permita mantener cadenas de texto en un punto de nuestro código, y mantener números enteros en otro punto, en lugar de crear dos clases, una para contener solo cadenas de texto y otra para contener números enteros.
 
@@ -225,9 +225,9 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDM4NDY3Myw3NDk0MzY4MiwtNDE3OT
-kzNTcsNTU0OTg0MjU3LDgyNzg2Nzc0MywxNTMyNzE5MTgwLDY1
-NDMwMjE0OCwxNDI0NjkxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNj
-Y0LDgyNjY5MTMyOCwxNDQxODc2NTIsNTY4NTk0NzU4LC00ODU3
-Njc1MzEsLTczODcwNDU1NV19
+eyJoaXN0b3J5IjpbLTEzMTA2ODA0NDAsLTU4NDM4NDY3Myw3ND
+k0MzY4MiwtNDE3OTkzNTcsNTU0OTg0MjU3LDgyNzg2Nzc0Mywx
+NTMyNzE5MTgwLDY1NDMwMjE0OCwxNDI0NjkxNDYsMTQ3MzY0MD
+k1OSwtNTcwNjYwNjY0LDgyNjY5MTMyOCwxNDQxODc2NTIsNTY4
+NTk0NzU4LC00ODU3Njc1MzEsLTczODcwNDU1NV19
 -->
