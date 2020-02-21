@@ -39,7 +39,7 @@ Entonces, en el caso de una colección genérica, podemos crear una instancia de
 
 Es fácil ver por qué los tipos de colección son candidatos ideales para el comportamiento genérico. Una colección es un contenedor, como una bolsa, por ejemplo. 
 
-Entonces, por ejemplo, podríamos crear una clase de colección genérica que nos permita mantener cadenas en un punto de nuestro código, y mantener entradas en otro punto, en lugar de crear dos clases, una para contener solo cadenas y otra para contener entradas.
+Entonces, por ejemplo, podríamos crear una clase de colección genérica que nos permita mantener cadenas de texto en un punto de nuestro código, y mantener números enteros en otro punto, en lugar de crear dos clases, una para contener solo cadenas y otra para contener entradas.
 
 # Tipos de colecciones genéricas
 
@@ -225,7 +225,7 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTIxMjAwNyw3NDk0MzY4MiwtNDE3OT
+eyJoaXN0b3J5IjpbLTM3NDExMTE4OCw3NDk0MzY4MiwtNDE3OT
 kzNTcsNTU0OTg0MjU3LDgyNzg2Nzc0MywxNTMyNzE5MTgwLDY1
 NDMwMjE0OCwxNDI0NjkxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNj
 Y0LDgyNjY5MTMyOCwxNDQxODc2NTIsNTY4NTk0NzU4LC00ODU3
