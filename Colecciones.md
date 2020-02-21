@@ -37,7 +37,7 @@ Lo que esto significa es que podemos diseñar una clase que recibirá parámetro
 
 Entonces, en el caso de una colección genérica, podemos crear una instancia de una lista que solo contiene cadenas de textos (*strings*). No se pueden agregar elementos de lista que no sean cadenas de textos. Entonces podríamos definir otra Lista que solo acepte enteros (*integer*), y así sucesivamente. De esta manera, podemos diseñar clases que se puedan reutilizar en muchos contextos diferentes, y aumentar la seguridad de los tipos también.
 
-Es fácil ver por qué los tipos de colección son candidatos ideales para el comportamiento genérico. Una colección es un contenedor, como una bolsa, por ejemplo. Probablemente no querríamos ir a la tienda y comprar varias bolsas, solo porque podríamos ponerles diferentes cosas en diferentes momentos. Probablemente solo compraríamos una bolsa y aceptaremos que podemos usarla para transportar diferentes tipos de objetos cuando sea necesario.
+Es fácil ver por qué los tipos de colección son candidatos ideales para el comportamiento genérico. Una colección es un contenedor, como una bolsa, por ejemplo. 
 
 Entonces, por ejemplo, podríamos crear una clase de colección genérica que nos permita mantener cadenas en un punto de nuestro código, y mantener entradas en otro punto, en lugar de crear dos clases, una para contener solo cadenas y otra para contener entradas.
 
@@ -225,9 +225,9 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDg3OTM3MiwtNDE3OTkzNTcsNTU0OT
-g0MjU3LDgyNzg2Nzc0MywxNTMyNzE5MTgwLDY1NDMwMjE0OCwx
-NDI0NjkxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNjY0LDgyNjY5MT
-MyOCwxNDQxODc2NTIsNTY4NTk0NzU4LC00ODU3Njc1MzEsLTcz
-ODcwNDU1NV19
+eyJoaXN0b3J5IjpbNzQ5NDM2ODIsLTQxNzk5MzU3LDU1NDk4ND
+I1Nyw4Mjc4Njc3NDMsMTUzMjcxOTE4MCw2NTQzMDIxNDgsMTQy
+NDY5MTQ2LDE0NzM2NDA5NTksLTU3MDY2MDY2NCw4MjY2OTEzMj
+gsMTQ0MTg3NjUyLDU2ODU5NDc1OCwtNDg1NzY3NTMxLC03Mzg3
+MDQ1NTVdfQ==
 -->
