@@ -21,7 +21,7 @@ Las colecciones proporcionan un método más flexible para trabajar con grupos d
 
 .NET Framework proporciona muchas colecciones comunes.  Cada tipo de colección está diseñado para un fin específico.
 
-En esta sección se describen algunas de las clases de colecciones comunes:
+Colecciones comunes:
 
 -   Clases System.Collections.Generic
     
@@ -225,7 +225,7 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Nzk4Nzg0OSwtNDE3OTkzNTcsNTU0OT
+eyJoaXN0b3J5IjpbLTc3NTI0Nzk1OCwtNDE3OTkzNTcsNTU0OT
 g0MjU3LDgyNzg2Nzc0MywxNTMyNzE5MTgwLDY1NDMwMjE0OCwx
 NDI0NjkxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNjY0LDgyNjY5MT
 MyOCwxNDQxODc2NTIsNTY4NTk0NzU4LC00ODU3Njc1MzEsLTcz
