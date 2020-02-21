@@ -35,7 +35,7 @@ Veamos una categoría de colección llamada Colecciones genéricas. Sabemos qué
 
 Lo que esto significa es que podemos diseñar una clase que recibirá parámetros, los tipos de estos parámetros se definen cuando se crea una instancia de un objeto de clase genérico.
 
-Entonces, en el caso de una colección genérica, podemos crear una instancia de una lista que solo contiene cadenas de textos (*strings*). No se pueden agregar elementos de lista que no sean cadenas. Entonces podríamos definir otra Lista que solo acepte entradas, y así sucesivamente. De esta manera, podemos diseñar clases que se puedan reutilizar en muchos contextos diferentes, y aumentar la seguridad de los tipos también.
+Entonces, en el caso de una colección genérica, podemos crear una instancia de una lista que solo contiene cadenas de textos (*strings*). No se pueden agregar elementos de lista que no sean cadenas de textos. Entonces podríamos definir otra Lista que solo acepte enteros (*integer*), y así sucesivamente. De esta manera, podemos diseñar clases que se puedan reutilizar en muchos contextos diferentes, y aumentar la seguridad de los tipos también.
 
 Es fácil ver por qué los tipos de colección son candidatos ideales para el comportamiento genérico. Una colección es un contenedor, como una bolsa, por ejemplo. Probablemente no querríamos ir a la tienda y comprar varias bolsas, solo porque podríamos ponerles diferentes cosas en diferentes momentos. Probablemente solo compraríamos una bolsa y aceptaremos que podemos usarla para transportar diferentes tipos de objetos cuando sea necesario.
 
@@ -225,7 +225,7 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTYyMjc4OSwtNDE3OTkzNTcsNTU0OT
+eyJoaXN0b3J5IjpbMTc2MDg3OTM3MiwtNDE3OTkzNTcsNTU0OT
 g0MjU3LDgyNzg2Nzc0MywxNTMyNzE5MTgwLDY1NDMwMjE0OCwx
 NDI0NjkxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNjY0LDgyNjY5MT
 MyOCwxNDQxODc2NTIsNTY4NTk0NzU4LC00ODU3Njc1MzEsLTcz
