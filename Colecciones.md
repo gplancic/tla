@@ -1,7 +1,6 @@
 # Colecciones en C#
 
-Muchas aplicaciones requieren agrupar objetos 
- - Agendas  
+Muchas aplicaciones requieren agrupar objetos por ejemplo una agenda un   
  - Catálogos de librerías o de productos
  - Sistema de alumnos de la Universidad 
 
@@ -229,9 +228,9 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzk5MzU3LDU1NDk4NDI1Nyw4Mjc4Nj
-c3NDMsMTUzMjcxOTE4MCw2NTQzMDIxNDgsMTQyNDY5MTQ2LDE0
-NzM2NDA5NTksLTU3MDY2MDY2NCw4MjY2OTEzMjgsMTQ0MTg3Nj
-UyLDU2ODU5NDc1OCwtNDg1NzY3NTMxLC03Mzg3MDQ1NTVdfQ==
-
+eyJoaXN0b3J5IjpbMTA1NTgxNzA3OSwtNDE3OTkzNTcsNTU0OT
+g0MjU3LDgyNzg2Nzc0MywxNTMyNzE5MTgwLDY1NDMwMjE0OCwx
+NDI0NjkxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNjY0LDgyNjY5MT
+MyOCwxNDQxODc2NTIsNTY4NTk0NzU4LC00ODU3Njc1MzEsLTcz
+ODcwNDU1NV19
 -->
