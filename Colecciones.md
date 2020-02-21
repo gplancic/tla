@@ -31,11 +31,11 @@ Colecciones comunes:
 
 # Colecciones genéricas
 
-Veamos una categoría de colección llamada Colecciones genéricas. Sabemos qué es una colección en términos generales; Es un objeto que contiene un grupo de otros objetos y puede ser trabajado o procesado de alguna manera. Intentemos definir qué queremos decir con genérico.
+Sabemos qué es una colección en términos generales; Es un objeto que contiene un grupo de otros objetos y puede ser trabajado o procesado de alguna manera. Intentemos definir qué queremos decir con genérico.
 
 Lo que esto significa es que podemos diseñar una clase que recibirá parámetros, los tipos de estos parámetros se definen cuando se crea una instancia de un objeto de clase genérico.
 
-Entonces, en el caso de una colección genérica, podemos crear una instancia de una lista que solo contiene cadenas de textos (*strings*). No se pueden agregar elementos de lista que no sean cadenas de textos. Entonces podríamos definir otra Lista que solo acepte enteros (*integer*), y así sucesivamente. De esta manera, podemos diseñar clases que se puedan reutilizar en muchos contextos diferentes, y aumentar la seguridad de los tipos también.
+Entonces, en el caso de una colección genérica, podemos crear una instancia de una Lista (*list*) que solo contiene cadenas de textos (*strings*). No se pueden agregar elementos de lista que no sean cadenas de textos. Entonces podríamos definir otra Lista que solo acepte números enteros (*integer*), y así sucesivamente. De esta manera, podemos diseñar clases que se puedan reutilizar en muchos contextos diferentes, y aumentar la seguridad de los tipos también.
 
 Es fácil ver por qué los tipos de colección son candidatos ideales para el comportamiento genérico. Una colección es un contenedor, como una bolsa, por ejemplo. 
 
@@ -225,7 +225,7 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjQ0MjQ0NCw3NDk0MzY4MiwtNDE3OT
+eyJoaXN0b3J5IjpbLTI1NTIxMjAwNyw3NDk0MzY4MiwtNDE3OT
 kzNTcsNTU0OTg0MjU3LDgyNzg2Nzc0MywxNTMyNzE5MTgwLDY1
 NDMwMjE0OCwxNDI0NjkxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNj
 Y0LDgyNjY5MTMyOCwxNDQxODc2NTIsNTY4NTk0NzU4LC00ODU3
