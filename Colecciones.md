@@ -19,8 +19,6 @@ Lo que esto significa es que podemos diseñar una clase que recibirá parámetro
 
 Entonces, en el caso de una colección genérica, podemos crear una instancia de una Lista (*list*) que solo contiene cadenas de textos (*strings*). No se pueden agregar elementos de lista que no sean cadenas de textos. Entonces podríamos definir otra Lista que solo acepte números enteros (*integer*), y así sucesivamente. De esta manera, podemos diseñar clases que se puedan reutilizar en muchos contextos diferentes, y aumentar la seguridad de los tipos también.
 
-Es fácil ver por qué los tipos de colección son candidatos ideales para el comportamiento genérico. Una colección es un contenedor, como una bolsa.
-
 Entonces, por ejemplo, podríamos crear una clase de colección genérica que nos permita mantener cadenas de texto en un punto de nuestro código, y mantener números enteros en otro punto, en lugar de crear dos clases, una para contener solo cadenas de texto y otra para contener números enteros.
 
 # Tipos de colecciones genéricas
@@ -207,7 +205,7 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTA2Mzc3NywtMTMxMDY4MDQ0MCwtNT
+eyJoaXN0b3J5IjpbLTI0NzcxOTE4NywtMTMxMDY4MDQ0MCwtNT
 g0Mzg0NjczLDc0OTQzNjgyLC00MTc5OTM1Nyw1NTQ5ODQyNTcs
 ODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0MzAyMTQ4LDE0MjQ2OT
 E0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4LDE0
