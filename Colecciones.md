@@ -19,13 +19,7 @@ Lo que esto significa es que podemos diseñar una clase que recibirá parámetro
 
 Entonces, en el caso de una colección genérica, podemos crear una instancia de una Lista (*list*) que solo contiene cadenas de textos (*strings*). No se pueden agregar elementos de lista que no sean cadenas de textos. Entonces podríamos definir otra Lista que solo acepte números enteros (*integer*), y así sucesivamente. De esta manera, podemos diseñar clases que se puedan reutilizar en muchos contextos diferentes, y aumentar la seguridad de los tipos también.
 
-Entonces, por ejemplo, podríamos crear una clase de colección genérica que nos permita mantener cadenas de texto en un punto de nuestro código, y mantener números enteros en otro punto, en lugar de crear dos clases, una para contener solo cadenas de texto y otra para contener números enteros.
-
-# Tipos de colecciones genéricas
-
-Tenga en cuenta que todos estos tipos se encuentran dentro del espacio de nombres System.Collections.Generic e implementan la interfaz ICollection.
-
-El punto relevante aquí es que al implementar ICollection, se proporcionan algunos métodos y propiedades estándar como Agregar, Editar y Eliminar que hacen que el manejo de colecciones sea muy intuitivo.
+El punto más importante es que al implementar una colección, se proporcionan algunos métodos y propiedades estándar como agregar, editar, recorrer y eliminar que hacen que el manejo de colecciones sea muy intuitivo.
 Instanciación de una colección:
 
     List<int> intList = new List<int>();
@@ -205,7 +199,7 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NzcxOTE4NywtMTMxMDY4MDQ0MCwtNT
+eyJoaXN0b3J5IjpbLTk3MDA3NjA2OCwtMTMxMDY4MDQ0MCwtNT
 g0Mzg0NjczLDc0OTQzNjgyLC00MTc5OTM1Nyw1NTQ5ODQyNTcs
 ODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0MzAyMTQ4LDE0MjQ2OT
 E0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4LDE0
