@@ -15,7 +15,7 @@ En este apartado veremos como trabajar con **Colecciones**, las colecciones prop
 
 Una colección es un objeto que contiene un grupo de otros objetos y puede ser trabajado o procesado de alguna manera. Por ejemplo una agenda.
 
-.NET Framework ofrece la posibilidad de trabajar con diferentes tipos de colecciones, vamos a implementar a trabajar en este apartados con las que serán de mayor utilidad para resolver futuros ejercicios: Colecciones Ge
+.NET Framework ofrece la posibilidad de trabajar con diferentes tipos de colecciones, vamos a implementar a trabajar en este apartados con las que serán de mayor utilidad para resolver futuros ejercicios: **Colecciones Genericas.**
 
 Genérico significa que podemos diseñar una clase que recibirá parámetros, los tipos de estos parámetros se definen cuando se crea una instancia de un objeto de clase genérico.
 Instanciación de una colección:
@@ -202,7 +202,7 @@ El punto más importante es que al implementar una colección, se proporcionan a
  - [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODAwNTA1MiwtMTMxMDY4MDQ0MCwtNT
+eyJoaXN0b3J5IjpbMTUxNTQ1NjA2MSwtMTMxMDY4MDQ0MCwtNT
 g0Mzg0NjczLDc0OTQzNjgyLC00MTc5OTM1Nyw1NTQ5ODQyNTcs
 ODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0MzAyMTQ4LDE0MjQ2OT
 E0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4LDE0
