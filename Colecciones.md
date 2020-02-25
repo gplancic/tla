@@ -4,14 +4,14 @@ Muchas aplicaciones requieren agrupar objetos por ejemplo una agenda, un catálo
 
 El número de objetos a agrupar varía por lo que en general tendremos 2 operaciones comunes a realizar  la **adición y eliminación de objetos**. 
  
-También será necesario poder ser capaces de manipular los objetos de este grupo **Búsqueda de objetos**  , **Consulta y modificación de objetos**
+También será necesario poder ser capaces de manipular los objetos de este grupo **búsqueda de objetos**  , **consulta y modificación de objetos**
 
 Hasta el momento vimos que es posible agrupar objetos en  **Matrices**. Las matrices son muy útiles para crear y trabajar con un número fijo de objetos fuertemente tipados.
 
 En este apartado veremos como trabajar con **Colecciones**, las colecciones proporcionan un método más flexible para trabajar con grupos de objetos.
 
 
-# Colecciones 
+# Colecciones Genericas
 
 Una colección es un objeto que contiene un grupo de otros objetos y puede ser trabajado o procesado de alguna manera. 
 
@@ -209,10 +209,11 @@ El punto más importante es que al implementar una colección, se proporcionan a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1MzU2NTgwLC04Mjc3NTkwOTUsMTUxNT
-Q1NjA2MSwtMTMxMDY4MDQ0MCwtNTg0Mzg0NjczLDc0OTQzNjgy
-LC00MTc5OTM1Nyw1NTQ5ODQyNTcsODI3ODY3NzQzLDE1MzI3MT
-kxODAsNjU0MzAyMTQ4LDE0MjQ2OTE0NiwxNDczNjQwOTU5LC01
-NzA2NjA2NjQsODI2NjkxMzI4LDE0NDE4NzY1Miw1Njg1OTQ3NT
-gsLTQ4NTc2NzUzMSwtNzM4NzA0NTU1XX0=
+eyJoaXN0b3J5IjpbMTM5OTkxNTc3Nyw4ODUzNTY1ODAsLTgyNz
+c1OTA5NSwxNTE1NDU2MDYxLC0xMzEwNjgwNDQwLC01ODQzODQ2
+NzMsNzQ5NDM2ODIsLTQxNzk5MzU3LDU1NDk4NDI1Nyw4Mjc4Nj
+c3NDMsMTUzMjcxOTE4MCw2NTQzMDIxNDgsMTQyNDY5MTQ2LDE0
+NzM2NDA5NTksLTU3MDY2MDY2NCw4MjY2OTEzMjgsMTQ0MTg3Nj
+UyLDU2ODU5NDc1OCwtNDg1NzY3NTMxLC03Mzg3MDQ1NTVdfQ==
+
 -->
