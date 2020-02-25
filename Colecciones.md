@@ -81,13 +81,13 @@ El punto más importante es que al implementar una colección, se proporcionan a
     		// imprimo en consola el número de elementos que contiene la lista
     		Console.WriteLine(strList.Count);
     		
-    	    // instancio una lista que contiene  objeto del tipo "alumno"
+    	    // instancio una lista que contiene objetos del tipo "alumno"
     		IList<Alumnos> alumnoList = new List<Alumno>();
-    		studentList.Add(new Alumno());
-    		studentList.Add(new Alumno());
-    		studentList.Add(new Alumno());
+    		alumnoList.Add(new Alumno());
+    		alumnoList.Add(new Alumno());
+    		alumnoList.Add(new Alumno());
     		
-    		Console.WriteLine(studentList.Count);
+    		Console.WriteLine(alumnoList.Count);
     		
     	}
     }
@@ -207,7 +207,7 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODUzODkyNiwtMTMxMDY4MDQ0MCwtNT
+eyJoaXN0b3J5IjpbLTE0NTgzMDQ5MywtMTMxMDY4MDQ0MCwtNT
 g0Mzg0NjczLDc0OTQzNjgyLC00MTc5OTM1Nyw1NTQ5ODQyNTcs
 ODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0MzAyMTQ4LDE0MjQ2OT
 E0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4LDE0
