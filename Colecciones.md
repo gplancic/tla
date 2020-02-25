@@ -2,9 +2,9 @@
 
 Muchas aplicaciones requieren agrupar objetos por ejemplo una agenda, un catálogo de productos o el mismo sistema de alumnos de la Universidad. 
 
-El número de objetos a agrupar varía por lo que en general tendremos 2 operaciones comunes a realizar  la **adición y eliminación de objetos**. 
+El número de objetos a agrupar varía por lo que en general tendremos dos operaciones comunes a realizar  la **adición y eliminación de objetos**. 
  
-También será necesario poder ser capaces de manipular los objetos de este grupo **búsqueda de objetos**  , **consulta y modificación de objetos**
+También será necesario poder ser capaces de manipular los objetos de este grupo, así como realizar **búsqueda de objetos**  , y **consulta y modificación de objetos**
 
 Hasta el momento vimos que es posible agrupar objetos en  **Matrices**. Las matrices son muy útiles para crear y trabajar con un número fijo de objetos fuertemente tipados.
 
