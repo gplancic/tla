@@ -198,6 +198,8 @@ El punto más importante es que al implementar una colección, se proporcionan a
     	}
     }
 
+
+
 > Fuentes
  - [https://medium.com/@richmoore_35579/net-c-collections-programming-b35aa29653a7](https://medium.com/@richmoore_35579/net-c-collections-programming-b35aa29653a7)
  - [https://www.tutorialsteacher.com/csharp/csharp-list](https://www.tutorialsteacher.com/csharp/csharp-list)
@@ -207,10 +209,10 @@ El punto más importante es que al implementar una colección, se proporcionan a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU2ODgwMTksMTUxNTQ1NjA2MSwtMT
-MxMDY4MDQ0MCwtNTg0Mzg0NjczLDc0OTQzNjgyLC00MTc5OTM1
-Nyw1NTQ5ODQyNTcsODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0Mz
-AyMTQ4LDE0MjQ2OTE0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQs
-ODI2NjkxMzI4LDE0NDE4NzY1Miw1Njg1OTQ3NTgsLTQ4NTc2Nz
-UzMSwtNzM4NzA0NTU1XX0=
+eyJoaXN0b3J5IjpbLTgyNzc1OTA5NSwxNTE1NDU2MDYxLC0xMz
+EwNjgwNDQwLC01ODQzODQ2NzMsNzQ5NDM2ODIsLTQxNzk5MzU3
+LDU1NDk4NDI1Nyw4Mjc4Njc3NDMsMTUzMjcxOTE4MCw2NTQzMD
+IxNDgsMTQyNDY5MTQ2LDE0NzM2NDA5NTksLTU3MDY2MDY2NCw4
+MjY2OTEzMjgsMTQ0MTg3NjUyLDU2ODU5NDc1OCwtNDg1NzY3NT
+MxLC03Mzg3MDQ1NTVdfQ==
 -->
