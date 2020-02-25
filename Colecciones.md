@@ -11,10 +11,12 @@ Hasta el momento vimos que es posible agrupar objetos en  **Matrices**. Las matr
 En este apartado veremos como trabajar con **Colecciones**, las colecciones proporcionan un método más flexible para trabajar con grupos de objetos.
 
 
-# Colecciones genéricas
+# Colecciones 
 
 Una colección es un objeto que contiene un grupo de otros objetos y puede ser trabajado o procesado de alguna manera. Por ejemplo una agenda.
-C# 
+
+.NET Framework ofrece la posibilidad de trabajar con diferentes tipos de colecciones, vamos a implementar a trabajar en este apartados con las que serán de 
+
 Genérico significa que podemos diseñar una clase que recibirá parámetros, los tipos de estos parámetros se definen cuando se crea una instancia de un objeto de clase genérico.
 Instanciación de una colección:
 
@@ -200,7 +202,7 @@ El punto más importante es que al implementar una colección, se proporcionan a
  - [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTAyMTI0MDksLTEzMTA2ODA0NDAsLT
+eyJoaXN0b3J5IjpbLTExNDIzNzI4MzcsLTEzMTA2ODA0NDAsLT
 U4NDM4NDY3Myw3NDk0MzY4MiwtNDE3OTkzNTcsNTU0OTg0MjU3
 LDgyNzg2Nzc0MywxNTMyNzE5MTgwLDY1NDMwMjE0OCwxNDI0Nj
 kxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNjY0LDgyNjY5MTMyOCwx
