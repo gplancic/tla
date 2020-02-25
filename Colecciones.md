@@ -8,7 +8,7 @@ También será necesario poder ser capaces de manipular los objetos de este grup
 
 Hasta el momento vimos que es posible agrupar objetos en  **Matrices**. Las matrices son muy útiles para crear y trabajar con un número fijo de objetos fuertemente tipados.
 
-En este artículo veremos como trabajar con **Colecciones**, las colecciones proporcionan un método más flexible para trabajar con grupos de objetos.
+En este apartado veremos como trabajar con **Colecciones**, las colecciones proporcionan un método más flexible para trabajar con grupos de objetos.
 
 
 # Colecciones genéricas
@@ -200,10 +200,10 @@ El punto más importante es que al implementar una colección, se proporcionan a
  - [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQyODk3MjIsLTEzMTA2ODA0NDAsLT
-U4NDM4NDY3Myw3NDk0MzY4MiwtNDE3OTkzNTcsNTU0OTg0MjU3
-LDgyNzg2Nzc0MywxNTMyNzE5MTgwLDY1NDMwMjE0OCwxNDI0Nj
-kxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNjY0LDgyNjY5MTMyOCwx
-NDQxODc2NTIsNTY4NTk0NzU4LC00ODU3Njc1MzEsLTczODcwND
-U1NV19
+eyJoaXN0b3J5IjpbLTQ1OTY2OTc3OSwtMTMxMDY4MDQ0MCwtNT
+g0Mzg0NjczLDc0OTQzNjgyLC00MTc5OTM1Nyw1NTQ5ODQyNTcs
+ODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0MzAyMTQ4LDE0MjQ2OT
+E0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4LDE0
+NDE4NzY1Miw1Njg1OTQ3NTgsLTQ4NTc2NzUzMSwtNzM4NzA0NT
+U1XX0=
 -->
