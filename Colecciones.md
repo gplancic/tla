@@ -192,25 +192,18 @@ El punto más importante es que al implementar una colección, se proporcionan a
     	}
     }
 
-
-Resumen
-
-Desafio
-
-
-
-
 > Fuentes
-[https://medium.com/@richmoore_35579/net-c-collections-programming-b35aa29653a7](https://medium.com/@richmoore_35579/net-c-collections-programming-b35aa29653a7)
-[https://www.tutorialsteacher.com/csharp/csharp-list](https://www.tutorialsteacher.com/csharp/csharp-list)
-[https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
-[https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
-[https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
+ - [https://medium.com/@richmoore_35579/net-c-collections-programming-b35aa29653a7](https://medium.com/@richmoore_35579/net-c-collections-programming-b35aa29653a7)
+ - [https://www.tutorialsteacher.com/csharp/csharp-list](https://www.tutorialsteacher.com/csharp/csharp-list)
+ - [https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
+ - [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
+ - [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTgzMDQ5MywtMTMxMDY4MDQ0MCwtNT
-g0Mzg0NjczLDc0OTQzNjgyLC00MTc5OTM1Nyw1NTQ5ODQyNTcs
-ODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0MzAyMTQ4LDE0MjQ2OT
-E0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4LDE0
-NDE4NzY1Miw1Njg1OTQ3NTgsLTQ4NTc2NzUzMSwtNzM4NzA0NT
-U1XX0=
+eyJoaXN0b3J5IjpbLTE4OTQyODk3MjIsLTEzMTA2ODA0NDAsLT
+U4NDM4NDY3Myw3NDk0MzY4MiwtNDE3OTkzNTcsNTU0OTg0MjU3
+LDgyNzg2Nzc0MywxNTMyNzE5MTgwLDY1NDMwMjE0OCwxNDI0Nj
+kxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNjY0LDgyNjY5MTMyOCwx
+NDQxODc2NTIsNTY4NTk0NzU4LC00ODU3Njc1MzEsLTczODcwND
+U1NV19
 -->
