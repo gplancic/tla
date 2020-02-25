@@ -69,7 +69,7 @@ El punto más importante es que al implementar una colección, se proporcionan a
 	    	// instancio una lista que solo podrá contener cadena de textos
     		IList<string> strList = new List<string>();
     		
-    		// agrego a la lista textos, observese que agrego 2 veces 
+    		// agrego a la lista textos, observese que agrego 2 veces "cuatro" y 2 veces null
     		strList.Add("uno");
     		strList.Add("dos");
     		strList.Add("tres");
@@ -78,12 +78,14 @@ El punto más importante es que al implementar una colección, se proporcionan a
     		strList.Add(null);
     		strList.Add(null);
     		
+    		// imprimo en consola el número de elementos que contiene la lista
     		Console.WriteLine(strList.Count);
     		
-    		IList<Student> studentList = new List<Student>();
-    		studentList.Add(new Student());
-    		studentList.Add(new Student());
-    		studentList.Add(new Student());
+    	    // instancio una lista que contiene  objeto del tipo "alumno"
+    		IList<Alumnos> alumnoList = new List<Alumno>();
+    		studentList.Add(new Alumno());
+    		studentList.Add(new Alumno());
+    		studentList.Add(new Alumno());
     		
     		Console.WriteLine(studentList.Count);
     		
@@ -205,7 +207,7 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzQ5NDc0NiwtMTMxMDY4MDQ0MCwtNT
+eyJoaXN0b3J5IjpbLTc0ODUzODkyNiwtMTMxMDY4MDQ0MCwtNT
 g0Mzg0NjczLDc0OTQzNjgyLC00MTc5OTM1Nyw1NTQ5ODQyNTcs
 ODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0MzAyMTQ4LDE0MjQ2OT
 E0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4LDE0
