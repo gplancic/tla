@@ -13,19 +13,17 @@ En este artículo veremos como trabajar con **Colecciones**, las colecciones pro
 
 # Colecciones genéricas
 
-Una colección es un objeto que contiene un grupo de otros objetos y puede ser trabajado o procesado de alguna manera. Por ejemplo una agenda.Intentemos definir qué queremos decir con genérico.
+Una colección es un objeto que contiene un grupo de otros objetos y puede ser trabajado o procesado de alguna manera. Por ejemplo una agenda.
 
-Lo que esto significa es que podemos diseñar una clase que recibirá parámetros, los tipos de estos parámetros se definen cuando se crea una instancia de un objeto de clase genérico.
-
-Entonces, en el caso de una colección genérica, podemos crear una instancia de una Lista (*list*) que solo contiene cadenas de textos (*strings*). No se pueden agregar elementos de lista que no sean cadenas de textos. Entonces podríamos definir otra Lista que solo acepte números enteros (*integer*), y así sucesivamente. De esta manera, podemos diseñar clases que se puedan reutilizar en muchos contextos diferentes, y aumentar la seguridad de los tipos también.
-
-El punto más importante es que al implementar una colección, se proporcionan algunos métodos y propiedades estándar como agregar, editar, recorrer y eliminar que hacen que el manejo de colecciones sea muy intuitivo.
-
+Genérico significa que podemos diseñar una clase que recibirá parámetros, los tipos de estos parámetros se definen cuando se crea una instancia de un objeto de clase genérico.
 Instanciación de una colección:
 
     List<int> intList = new List<int>();
     
-   
+Entonces, en el caso de una colección genérica, podemos crear una instancia de una Lista (*list*) que solo contiene cadenas de textos (*strings*). No se pueden agregar elementos de lista que no sean cadenas de textos. Entonces podríamos definir otra Lista que solo acepte números enteros (*integer*), y así sucesivamente. De esta manera, podemos diseñar clases que se puedan reutilizar en muchos contextos diferentes, y aumentar la seguridad de los tipos también.
+
+El punto más importante es que al implementar una colección, se proporcionan algunos métodos y propiedades estándar como agregar, editar, recorrer y eliminar que hacen que el manejo de colecciones sea muy intuitivo.
+
  La siguiente tabla enumera las propiedades y métodos importantes de la clase List< T > :
     
 |Método| Uso |
@@ -200,10 +198,10 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODQ2MDkzLC0xMzEwNjgwNDQwLC01OD
-QzODQ2NzMsNzQ5NDM2ODIsLTQxNzk5MzU3LDU1NDk4NDI1Nyw4
-Mjc4Njc3NDMsMTUzMjcxOTE4MCw2NTQzMDIxNDgsMTQyNDY5MT
-Q2LDE0NzM2NDA5NTksLTU3MDY2MDY2NCw4MjY2OTEzMjgsMTQ0
-MTg3NjUyLDU2ODU5NDc1OCwtNDg1NzY3NTMxLC03Mzg3MDQ1NT
-VdfQ==
+eyJoaXN0b3J5IjpbLTEyMTQ1NzMzNjIsLTEzMTA2ODA0NDAsLT
+U4NDM4NDY3Myw3NDk0MzY4MiwtNDE3OTkzNTcsNTU0OTg0MjU3
+LDgyNzg2Nzc0MywxNTMyNzE5MTgwLDY1NDMwMjE0OCwxNDI0Nj
+kxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNjY0LDgyNjY5MTMyOCwx
+NDQxODc2NTIsNTY4NTk0NzU4LC00ODU3Njc1MzEsLTczODcwND
+U1NV19
 -->
