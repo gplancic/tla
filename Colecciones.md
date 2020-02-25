@@ -15,13 +15,13 @@ En este apartado veremos como trabajar con **Colecciones**, las colecciones prop
 
 Una colección es un objeto que contiene un grupo de otros objetos y puede ser trabajado o procesado de alguna manera. 
 
-.NET Framework ofrece la posibilidad de trabajar con diferentes tipos de colecciones, vamos a implementar a trabajar en este apartado con las que serán de mayor utilidad para resolver futuros ejercicios: **Colecciones Genericas.**
+.NET Framework ofrece la posibilidad de trabajar con diferentes tipos de colecciones, vamos a trabajar en este apartado con las que serán de mayor utilidad para resolver futuros ejercicios: **Colecciones Genericas.**
 
 Genérico significa que podemos diseñar una clase que recibirá parámetros, los tipos de estos parámetros se definen cuando se crea una instancia de un objeto de clase genérico.
 
-Especificamente trabajaremos con las colecciones genéricas del tipo List<t>, que representa una lista de objetos fuertemente tipados a la que se puede acceder por índice.
+Especificamente trabajaremos con las colecciones genéricas del tipo List< T >, que representa una lista de objetos fuertemente tipados a la que se puede acceder por índice.
 
-Instanciación de una colección genérica del tipo List<T> (**T** = Tipo de elementos de la lista.):
+Instanciación de una colección genérica del tipo List< T > (**T** = Tipo de elementos de la lista.):
 
     // Instancio una coleccion generica del tipo List que acepte solamente números enteros
     List<int> intList = new List<int>();
@@ -209,7 +209,7 @@ El punto más importante es que al implementar una colección, se proporcionan a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTkxNTc3Nyw4ODUzNTY1ODAsLTgyNz
+eyJoaXN0b3J5IjpbLTMwMzg2MzExNCw4ODUzNTY1ODAsLTgyNz
 c1OTA5NSwxNTE1NDU2MDYxLC0xMzEwNjgwNDQwLC01ODQzODQ2
 NzMsNzQ5NDM2ODIsLTQxNzk5MzU3LDU1NDk4NDI1Nyw4Mjc4Nj
 c3NDMsMTUzMjcxOTE4MCw2NTQzMDIxNDgsMTQyNDY5MTQ2LDE0
