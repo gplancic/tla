@@ -54,14 +54,16 @@ El punto más importante es que al implementar una colección, se proporcionan a
     {
     	public static void Main()
     	{
-	    	// instancio una lista
+	    	// instancio una lista que solo podrá contener números enteros
     		IList<int> intList = new List<int>();
-    		// agrego a la lista 
+    		
+    		// agrego a la lista 4 números enteros 10,20,30,40
     		intList.Add(10);
     		intList.Add(20);
     		intList.Add(30);
     		intList.Add(40);
     		
+    		// imprimo en consola el número de elementos que contiene la lista
     		Console.WriteLine(intList.Count);
     		
     		IList<string> strList = new List<string>();
@@ -200,10 +202,10 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTAxMzQzNDIsLTEzMTA2ODA0NDAsLT
-U4NDM4NDY3Myw3NDk0MzY4MiwtNDE3OTkzNTcsNTU0OTg0MjU3
-LDgyNzg2Nzc0MywxNTMyNzE5MTgwLDY1NDMwMjE0OCwxNDI0Nj
-kxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNjY0LDgyNjY5MTMyOCwx
-NDQxODc2NTIsNTY4NTk0NzU4LC00ODU3Njc1MzEsLTczODcwND
-U1NV19
+eyJoaXN0b3J5IjpbMjA1NjIyNjI0MCwtMTMxMDY4MDQ0MCwtNT
+g0Mzg0NjczLDc0OTQzNjgyLC00MTc5OTM1Nyw1NTQ5ODQyNTcs
+ODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0MzAyMTQ4LDE0MjQ2OT
+E0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4LDE0
+NDE4NzY1Miw1Njg1OTQ3NTgsLTQ4NTc2NzUzMSwtNzM4NzA0NT
+U1XX0=
 -->
