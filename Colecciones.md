@@ -15,10 +15,11 @@ En este apartado veremos como trabajar con **Colecciones**, las colecciones prop
 
 Una colección es un objeto que contiene un grupo de otros objetos y puede ser trabajado o procesado de alguna manera. Por ejemplo una agenda.
 
-.NET Framework ofrece la posibilidad de trabajar con diferentes tipos de colecciones, vamos a implementar a trabajar en este apartados con las que serán de mayor utilidad para resolver futuros ejercicios: **Colecciones Genericas.**
+.NET Framework ofrece la posibilidad de trabajar con diferentes tipos de colecciones, vamos a implementar a trabajar en este apartado con las que serán de mayor utilidad para resolver futuros ejercicios: **Colecciones Genericas.**
 
 Genérico significa que podemos diseñar una clase que recibirá parámetros, los tipos de estos parámetros se definen cuando se crea una instancia de un objeto de clase genérico.
-Instanciación de una colección genérica del tipo List<T>:
+Especificamente trabajaremos con las colecciones genericas del tipo List<t>
+Instanciación de una colección genérica del tipo List<T> (**T** = Tipo de elementos de la lista.):
 
     List<int> intList = new List<int>();
     
@@ -202,10 +203,10 @@ El punto más importante es que al implementar una colección, se proporcionan a
  - [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2NTI0NDgwLDE1MTU0NTYwNjEsLTEzMT
-A2ODA0NDAsLTU4NDM4NDY3Myw3NDk0MzY4MiwtNDE3OTkzNTcs
-NTU0OTg0MjU3LDgyNzg2Nzc0MywxNTMyNzE5MTgwLDY1NDMwMj
-E0OCwxNDI0NjkxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNjY0LDgy
-NjY5MTMyOCwxNDQxODc2NTIsNTY4NTk0NzU4LC00ODU3Njc1Mz
-EsLTczODcwNDU1NV19
+eyJoaXN0b3J5IjpbLTE1NTYwMTA3NjIsMTUxNTQ1NjA2MSwtMT
+MxMDY4MDQ0MCwtNTg0Mzg0NjczLDc0OTQzNjgyLC00MTc5OTM1
+Nyw1NTQ5ODQyNTcsODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0Mz
+AyMTQ4LDE0MjQ2OTE0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQs
+ODI2NjkxMzI4LDE0NDE4NzY1Miw1Njg1OTQ3NTgsLTQ4NTc2Nz
+UzMSwtNzM4NzA0NTU1XX0=
 -->
