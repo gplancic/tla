@@ -66,12 +66,15 @@ El punto más importante es que al implementar una colección, se proporcionan a
     		// imprimo en consola el número de elementos que contiene la lista
     		Console.WriteLine(intList.Count);
     		
+	    	// instancio una lista que solo podrá contener cadena de textos
     		IList<string> strList = new List<string>();
-    		strList.Add("one");
-    		strList.Add("two");
-    		strList.Add("three");
-    		strList.Add("four");
-    		strList.Add("four");
+    		
+    		// agrego a la lista textos, observese que agrego 2 veces 
+    		strList.Add("uno");
+    		strList.Add("dos");
+    		strList.Add("tres");
+    		strList.Add("cuatro");
+    		strList.Add("cuatro");
     		strList.Add(null);
     		strList.Add(null);
     		
@@ -202,7 +205,7 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjIyNjI0MCwtMTMxMDY4MDQ0MCwtNT
+eyJoaXN0b3J5IjpbMjExNzQ5NDc0NiwtMTMxMDY4MDQ0MCwtNT
 g0Mzg0NjczLDc0OTQzNjgyLC00MTc5OTM1Nyw1NTQ5ODQyNTcs
 ODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0MzAyMTQ4LDE0MjQ2OT
 E0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4LDE0
