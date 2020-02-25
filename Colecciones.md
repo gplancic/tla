@@ -23,9 +23,9 @@ Especificamente trabajaremos con las colecciones genéricas del tipo List<t>, qu
 
 Instanciación de una colección genérica del tipo List<T> (**T** = Tipo de elementos de la lista.):
 
-    // Instancio una coleccion generica del tipo List que a
+    // Instancio una coleccion generica del tipo List que acepte solamente números enteros
     List<int> intList = new List<int>();
-    
+
 Entonces, en el caso de una colección genérica, podemos crear una instancia de una Lista (*list*) que solo contiene cadenas de textos (*strings*). No se pueden agregar elementos de lista que no sean cadenas de textos. Entonces podríamos definir otra Lista que solo acepte números enteros (*integer*), y así sucesivamente. De esta manera, podemos diseñar clases que se puedan reutilizar en muchos contextos diferentes, y aumentar la seguridad de los tipos también.
 
 El punto más importante es que al implementar una colección, se proporcionan algunos métodos y propiedades estándar como agregar, editar, recorrer y eliminar, entre otras,  que hacen que el manejo de colecciones sea muy intuitivo.
@@ -205,11 +205,12 @@ El punto más importante es que al implementar una colección, se proporcionan a
  - [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
  - [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDg0MTY0NCwxNTE1NDU2MDYxLC0xMz
-EwNjgwNDQwLC01ODQzODQ2NzMsNzQ5NDM2ODIsLTQxNzk5MzU3
-LDU1NDk4NDI1Nyw4Mjc4Njc3NDMsMTUzMjcxOTE4MCw2NTQzMD
-IxNDgsMTQyNDY5MTQ2LDE0NzM2NDA5NTksLTU3MDY2MDY2NCw4
-MjY2OTEzMjgsMTQ0MTg3NjUyLDU2ODU5NDc1OCwtNDg1NzY3NT
-MxLC03Mzg3MDQ1NTVdfQ==
+eyJoaXN0b3J5IjpbLTEyMTU2ODgwMTksMTUxNTQ1NjA2MSwtMT
+MxMDY4MDQ0MCwtNTg0Mzg0NjczLDc0OTQzNjgyLC00MTc5OTM1
+Nyw1NTQ5ODQyNTcsODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0Mz
+AyMTQ4LDE0MjQ2OTE0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQs
+ODI2NjkxMzI4LDE0NDE4NzY1Miw1Njg1OTQ3NTgsLTQ4NTc2Nz
+UzMSwtNzM4NzA0NTU1XX0=
 -->
