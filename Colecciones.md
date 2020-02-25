@@ -13,7 +13,7 @@ En este apartado veremos como trabajar con **Colecciones**, las colecciones prop
 
 # Colecciones 
 
-Una colección es un objeto que contiene un grupo de otros objetos y puede ser trabajado o procesado de alguna manera. Por ejemplo una agenda.
+Una colección es un objeto que contiene un grupo de otros objetos y puede ser trabajado o procesado de alguna manera. 
 
 .NET Framework ofrece la posibilidad de trabajar con diferentes tipos de colecciones, vamos a implementar a trabajar en este apartado con las que serán de mayor utilidad para resolver futuros ejercicios: **Colecciones Genericas.**
 
@@ -209,10 +209,10 @@ El punto más importante es que al implementar una colección, se proporcionan a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzc1OTA5NSwxNTE1NDU2MDYxLC0xMz
-EwNjgwNDQwLC01ODQzODQ2NzMsNzQ5NDM2ODIsLTQxNzk5MzU3
-LDU1NDk4NDI1Nyw4Mjc4Njc3NDMsMTUzMjcxOTE4MCw2NTQzMD
-IxNDgsMTQyNDY5MTQ2LDE0NzM2NDA5NTksLTU3MDY2MDY2NCw4
-MjY2OTEzMjgsMTQ0MTg3NjUyLDU2ODU5NDc1OCwtNDg1NzY3NT
-MxLC03Mzg3MDQ1NTVdfQ==
+eyJoaXN0b3J5IjpbODg1MzU2NTgwLC04Mjc3NTkwOTUsMTUxNT
+Q1NjA2MSwtMTMxMDY4MDQ0MCwtNTg0Mzg0NjczLDc0OTQzNjgy
+LC00MTc5OTM1Nyw1NTQ5ODQyNTcsODI3ODY3NzQzLDE1MzI3MT
+kxODAsNjU0MzAyMTQ4LDE0MjQ2OTE0NiwxNDczNjQwOTU5LC01
+NzA2NjA2NjQsODI2NjkxMzI4LDE0NDE4NzY1Miw1Njg1OTQ3NT
+gsLTQ4NTc2NzUzMSwtNzM4NzA0NTU1XX0=
 -->
