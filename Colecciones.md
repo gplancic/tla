@@ -1,33 +1,15 @@
 # Colecciones en C#
 
-Muchas aplicaciones requieren agrupar objetos por ejemplo una agenda, un   
- catálogo de productos o el mismo sistema de alumnos de la Universidad. 
+Muchas aplicaciones requieren agrupar objetos por ejemplo una agenda, un catálogo de productos o el mismo sistema de alumnos de la Universidad. 
 
 El número de objetos a agrupar varía por lo que en general tendremos 2 operaciones comunes a realizar  la **adición y eliminación de objetos**. 
  
-También sera necesario poder ser capaces de manipular los objetos de este grupo
- - **Búsqueda de objetos**  
- - **Consulta y modificación de objetos**
+También será necesario poder ser capaces de manipular los objetos de este grupo **Búsqueda de objetos**  , **Consulta y modificación de objetos**
 
-Hay dos formas de agruparlos: 
- - **Matrices**
- - **Colecciones** 
+Hasta el momento vimos que es posible agrupar objetos en  **Matrices**. Las matrices son muy útiles para crear y trabajar con un número fijo de objetos fuertemente tipados.
 
-Las matrices son muy útiles para crear y trabajar con un número fijo de objetos fuertemente tipados.
+En este artículo veremos como trabajar con **Colecciones**, las colecciones proporcionan un método más flexible para trabajar con grupos de objetos.
 
-Las colecciones proporcionan un método más flexible para trabajar con grupos de objetos.
-
-# Tipos de colecciones
-
-.NET Framework proporciona muchas colecciones comunes.  Cada tipo de colección está diseñado para un fin específico.
-
-Colecciones comunes:
-
-**-   Clases System.Collections.Generic**
-    
-**-   Clases  System.Collections.Concurrent**
-    
-**-   Clases  System.Collections**
 
 # Colecciones genéricas
 
@@ -225,9 +207,10 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTA2ODA0NDAsLTU4NDM4NDY3Myw3ND
-k0MzY4MiwtNDE3OTkzNTcsNTU0OTg0MjU3LDgyNzg2Nzc0Mywx
-NTMyNzE5MTgwLDY1NDMwMjE0OCwxNDI0NjkxNDYsMTQ3MzY0MD
-k1OSwtNTcwNjYwNjY0LDgyNjY5MTMyOCwxNDQxODc2NTIsNTY4
-NTk0NzU4LC00ODU3Njc1MzEsLTczODcwNDU1NV19
+eyJoaXN0b3J5IjpbLTUyMTA2Mzc3NywtMTMxMDY4MDQ0MCwtNT
+g0Mzg0NjczLDc0OTQzNjgyLC00MTc5OTM1Nyw1NTQ5ODQyNTcs
+ODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0MzAyMTQ4LDE0MjQ2OT
+E0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4LDE0
+NDE4NzY1Miw1Njg1OTQ3NTgsLTQ4NTc2NzUzMSwtNzM4NzA0NT
+U1XX0=
 -->
