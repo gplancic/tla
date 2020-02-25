@@ -18,7 +18,7 @@ Una colección es un objeto que contiene un grupo de otros objetos y puede ser t
 .NET Framework ofrece la posibilidad de trabajar con diferentes tipos de colecciones, vamos a implementar a trabajar en este apartados con las que serán de mayor utilidad para resolver futuros ejercicios: **Colecciones Genericas.**
 
 Genérico significa que podemos diseñar una clase que recibirá parámetros, los tipos de estos parámetros se definen cuando se crea una instancia de un objeto de clase genérico.
-Instanciación de una colección:
+Instanciación de una colección genérica del tipo List:
 
     List<int> intList = new List<int>();
     
@@ -202,10 +202,10 @@ El punto más importante es que al implementar una colección, se proporcionan a
  - [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTQ1NjA2MSwtMTMxMDY4MDQ0MCwtNT
-g0Mzg0NjczLDc0OTQzNjgyLC00MTc5OTM1Nyw1NTQ5ODQyNTcs
-ODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0MzAyMTQ4LDE0MjQ2OT
-E0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQsODI2NjkxMzI4LDE0
-NDE4NzY1Miw1Njg1OTQ3NTgsLTQ4NTc2NzUzMSwtNzM4NzA0NT
-U1XX0=
+eyJoaXN0b3J5IjpbLTExNTI5MTAyNzYsMTUxNTQ1NjA2MSwtMT
+MxMDY4MDQ0MCwtNTg0Mzg0NjczLDc0OTQzNjgyLC00MTc5OTM1
+Nyw1NTQ5ODQyNTcsODI3ODY3NzQzLDE1MzI3MTkxODAsNjU0Mz
+AyMTQ4LDE0MjQ2OTE0NiwxNDczNjQwOTU5LC01NzA2NjA2NjQs
+ODI2NjkxMzI4LDE0NDE4NzY1Miw1Njg1OTQ3NTgsLTQ4NTc2Nz
+UzMSwtNzM4NzA0NTU1XX0=
 -->
