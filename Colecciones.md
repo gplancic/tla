@@ -22,7 +22,7 @@ Instanciación de una colección:
     
 Entonces, en el caso de una colección genérica, podemos crear una instancia de una Lista (*list*) que solo contiene cadenas de textos (*strings*). No se pueden agregar elementos de lista que no sean cadenas de textos. Entonces podríamos definir otra Lista que solo acepte números enteros (*integer*), y así sucesivamente. De esta manera, podemos diseñar clases que se puedan reutilizar en muchos contextos diferentes, y aumentar la seguridad de los tipos también.
 
-El punto más importante es que al implementar una colección, se proporcionan algunos métodos y propiedades estándar como agregar, editar, recorrer y eliminar que hacen que el manejo de colecciones sea muy intuitivo.
+El punto más importante es que al implementar una colección, se proporcionan algunos métodos y propiedades estándar como agregar, editar, recorrer y eliminar, entre otras,  que hacen que el manejo de colecciones sea muy intuitivo.
 
  La siguiente tabla enumera las propiedades y métodos importantes de la clase List< T > :
     
@@ -54,7 +54,9 @@ El punto más importante es que al implementar una colección, se proporcionan a
     {
     	public static void Main()
     	{
+	    	// instancio una lista
     		IList<int> intList = new List<int>();
+    		// agrego a la lista 
     		intList.Add(10);
     		intList.Add(20);
     		intList.Add(30);
@@ -198,7 +200,7 @@ Desafio
 [https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections](https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/arrays-and-collections)
 [https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections#BKMK_KindsOfCollections)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTQ1NzMzNjIsLTEzMTA2ODA0NDAsLT
+eyJoaXN0b3J5IjpbLTE1OTAxMzQzNDIsLTEzMTA2ODA0NDAsLT
 U4NDM4NDY3Myw3NDk0MzY4MiwtNDE3OTkzNTcsNTU0OTg0MjU3
 LDgyNzg2Nzc0MywxNTMyNzE5MTgwLDY1NDMwMjE0OCwxNDI0Nj
 kxNDYsMTQ3MzY0MDk1OSwtNTcwNjYwNjY0LDgyNjY5MTMyOCwx
