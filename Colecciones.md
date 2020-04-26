@@ -15,9 +15,9 @@ En este apartado veremos como trabajar con **Colecciones**, las colecciones prop
 
 Una colección es un objeto que contiene un grupo de otros objetos y puede ser trabajado o procesado de alguna manera. 
 
-.NET Framework ofrece la posibilidad de trabajar con diferentes tipos de colecciones, vamos a trabajar en este apartado con las que serán de mayor utilidad para resolver futuros ejercicios: **Colecciones Genericas.**
+.NET Framework ofrece la posibilidad de trabajar con diferentes tipos de colecciones. Vamos a trabajar en este apartado con las que serán de mayor utilidad para resolver futuros ejercicios: **Colecciones Genericas.**
 
-Genérico significa que podemos diseñar una clase que recibirá parámetros, los tipos de estos parámetros se definen cuando se crea una instancia de un objeto de clase genérico.
+Genérico significa que podemos diseñar una clase que recibirá "tipos" como parámetros. Estos tipos, que por ser recibidos como parámetros dejan de ser fijos para pasar a ser variables, se pueden utilizar en la definición de los métodos internos de la clase. De esta manera los tipos de sus métodos se definen cuando se crea una instancia de un objeto de clase genérico, y no en el diseño de la clase. Esto es una gran ventaja, porque una misma clase definida de forma genérica se puede aprovechar entonces para manejar objetos de diferentes tipos, en lugar de tener que armar una clase distinta para cada uno.
 
 Especificamente trabajaremos con las colecciones genéricas del tipo List< T >, que representa una lista de objetos fuertemente tipados a la que se puede acceder por índice.
 
@@ -53,50 +53,49 @@ El punto más importante es que al implementar una colección, se proporcionan a
 
 **Ejemplo agregar elementos utilizando a una colección utilizando *ADD***
 
-    using System;
-    using System.Collections.Generic;
-    
     public class Program
     {
     	public static void Main()
     	{
-	    	// instancio una lista que solo podrá contener números enteros
-    		IList<int> intList = new List<int>();
-    		
-    		// agrego a la lista 4 números enteros 10,20,30,40
-    		intList.Add(10);
-    		intList.Add(20);
-    		intList.Add(30);
-    		intList.Add(40);
-    		
-    		// imprimo en consola el número de elementos que contiene la lista
-    		Console.WriteLine(intList.Count);
-    		
-	    	// instancio una lista que solo podrá contener cadena de textos
-    		IList<string> strList = new List<string>();
-    		
-    		// agrego a la lista textos, observese que agrego 2 veces "cuatro" y 2 veces null
-    		strList.Add("uno");
-    		strList.Add("dos");
-    		strList.Add("tres");
-    		strList.Add("cuatro");
-    		strList.Add("cuatro");
-    		strList.Add(null);
-    		strList.Add(null);
-    		
-    		// imprimo en consola el número de elementos que contiene la lista
-    		Console.WriteLine(strList.Count);
-    		
-    	    // instancio una lista que contiene objetos del tipo "alumno"
-    		IList<Alumnos> alumnoList = new List<Alumno>();
-    		alumnoList.Add(new Alumno());
-    		alumnoList.Add(new Alumno());
-    		alumnoList.Add(new Alumno());
-    		
-    		Console.WriteLine(alumnoList.Count);
-    		
-    	}
+            // instancio una lista que solo podrá contener números enteros
+            List<int> intList = new List<int>();
+
+            // agrego a la lista 4 números enteros 10,20,30,40
+            intList.Add(10);
+            intList.Add(20);
+            intList.Add(30);
+            intList.Add(40);
+
+            // imprimo en consola el número de elementos que contiene la lista
+            Console.WriteLine(intList.Count);
+
+            // instancio una lista que solo podrá contener cadena de textos
+            List<string> strList = new List<string>();
+
+            // agrego a la lista textos, observese que agrego 2 veces "cuatro" y 2 veces null
+            strList.Add("uno");
+            strList.Add("dos");
+            strList.Add("tres");
+            strList.Add("cuatro");
+            strList.Add("cuatro");
+            strList.Add(null);
+            strList.Add(null);
+
+            // imprimo en consola el número de elementos que contiene la lista
+            Console.WriteLine(strList.Count);
+
+            // instancio una lista que contiene objetos del tipo "alumno"
+            List<Alumno> alumnoList = new List<Alumno>();
+            alumnoList.Add(new Alumno());
+            alumnoList.Add(new Alumno());
+            alumnoList.Add(new Alumno());
+
+            Console.WriteLine(alumnoList.Count);
+            Console.ReadKey();
+        }
     }
+
+    class Alumno { }
 
 **Resultado:**
 
@@ -106,34 +105,31 @@ El punto más importante es que al implementar una colección, se proporcionan a
 
 **Agregar objetos a una colección**
     
-    using System;
-    using System.Collections.Generic;
     public class Program
     {
-    	public static void Main()
-    	{
-    		IList<int> intList = new List<int>(){ 10, 20, 30, 40 };
-    
-    
-    		Console.WriteLine(intList.Count);
-    
-    		IList<Student> studentList = new List<Student>() { 
+        public static void Main()
+        {
+            List<int> intList = new List<int>() { 10, 20, 30, 40 };
+
+
+            Console.WriteLine(intList.Count);
+
+            List<Student> studentList = new List<Student>() {
                     new Student(){ StudentID=1, StudentName="Bill"},
                     new Student(){ StudentID=2, StudentName="Steve"},
                     new Student(){ StudentID=3, StudentName="Ram"},
                     new Student(){ StudentID=1, StudentName="Moin"}
                 };
-    		
-    		Console.WriteLine(studentList.Count);
-    		
-    	}
+
+            Console.WriteLine(studentList.Count);
+            Console.ReadKey();
+        }
     }
-    
+
     public class Student
-    { 
-    	public int StudentID { get; set; }
-    	public string StudentName { get; set; }
-    	
+    {
+        public int StudentID { get; set; }
+        public string StudentName { get; set; }
     }
     
 **Resultado:**
@@ -142,62 +138,96 @@ El punto más importante es que al implementar una colección, se proporcionan a
     4
 **Ejemplo recorrer una colección**
 
-    using System;
-    using System.Collections.Generic;
-    
-    public class Program
-    {
-    	public static void Main()
-    	{		
-    		List<int> intList = new List<int>() { 10, 20, 30, 40, 50 };
-    
-    		intList.ForEach(el => Console.WriteLine(el));
-    
-    		foreach (var el in intList)
-            	Console.WriteLine(el);
-    		
-    		for(int i =0; i < intList.Count; i++)
-    			Console.WriteLine(intList[i]);
-    		
-    	}
-    } 
+   
+        public static void Main()
+        {
+            List<int> intList = new List<int>() { 10, 20, 30, 40, 50 };
+
+            //las llaves de los 2 bucles se podrían omitir
+            //porque hay una sola instrucción cada bucle
+
+            Console.WriteLine("opción: utilizar bucle for");
+            for (int i = 0; i < intList.Count; i++)
+            {
+                Console.WriteLine(intList[i]);
+            }
+
+            Console.WriteLine("opción: utilizar bucle foreach");
+            foreach (int el in intList)
+            {
+                Console.WriteLine(el);
+            }
+
+            Console.WriteLine("opción: utilizar método ForEach de la clase List");
+            intList.ForEach(el => Console.WriteLine(el));
+
+            Console.WriteLine("Método ForEach de la clase List" 
+                + " con más de una instrucción por ciclo");
+            intList.ForEach(delegate (int el)
+            {
+                Console.WriteLine("---");
+                Console.WriteLine(el);
+            });
+
+            Console.ReadKey();
+        }
 
 **Resultado:**
-
-    10  
-    20  
-    30  
-    40  
-    50  
-    10  
-    20  
-    30  
-    40  
-    50  
-    10  
-    20  
-    30  
-    40  
+    opción: utilizar bucle for
+    10
+    20
+    30
+    40
     50
+    opción: utilizar bucle foreach
+    10
+    20
+    30
+    40
+    50
+    opción: utilizar método ForEach de la clase List
+    10
+    20
+    30
+    40
+    50
+    Método ForEach de la clase List con más de una instrucción por ciclo
+    ---
+    10
+    ---
+    20
+    ---
+    30
+    ---
+    40
+    ---
+    50
+
+
 
 **Ejemplo insertar elementos en la colección**
 
-    using System;
-    using System.Collections.Generic;
-    					
     public class Program
     {
-    	public static void Main()
-    	{
-    		IList<int> intList = new List<int>(){ 10, 20, 30, 40 };
-    
-    		intList.Insert(1, 11);// inserts 11 at 1st index: after 10.
-    		
-    		foreach (var el in intList)
-    			Console.WriteLine(el);
-    	}
+        public static void Main()
+        {
+            List<int> intList = new List<int>() { 10, 20, 30, 40 };
+
+            intList.Insert(1, 11);// inserts 11 at 1st index: after 10.
+
+            foreach (var el in intList)
+                Console.WriteLine(el);
+
+            Console.ReadKey();
+        }
     }
 
+**Resultado:**
+    10
+    11
+    20
+    30
+    40
 
 
 > Fuentes
